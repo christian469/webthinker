@@ -10,6 +10,7 @@ function draw() {
   // Challenge 1: An eye using ellipse() function
   fill(60, 65, 66)
   ellipse(250, 200, 200, 200)
+  fill("white");
   ellipse(200, 150, 100, 100)
 
   // Challenge 2: A face using circle() function
