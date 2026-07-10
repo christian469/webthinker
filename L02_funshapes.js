@@ -23,6 +23,7 @@ function draw() {
   // fill("white")
   // rect(160, 160, 250, 250)
 
+  fill("green")
   
 
   // Challenge 3: A house using rect() function
