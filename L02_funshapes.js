@@ -19,7 +19,7 @@ function draw() {
   // circle(300, 200, 150);
   // circle(425, 200, 100);
   fill("black")
-  rect(100, 100, 400, 300)
+  rect(100, 100, 300, 00)
   fill("white")
   rect(100, 200, 350, 350)
 
