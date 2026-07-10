@@ -2,8 +2,8 @@
 Task 1: Add the setup() function
 */
 function setup(){
-  createCanvas(500, 400)
-  background("")
+  createCanvas(500, 400);
+  background("abyss blue");
 }
 
 function draw() {
