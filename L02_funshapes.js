@@ -13,7 +13,7 @@ function draw() {
   fill("white");
   ellipse(250, 200, 125, 125)
   fill("black")
-  ellipse(250, 200, 100, 100)
+  ellipse(250, 200, 40, 40)
 
   // Challenge 2: A face using circle() function
 
