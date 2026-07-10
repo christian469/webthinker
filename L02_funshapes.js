@@ -21,7 +21,7 @@ function draw() {
   fill("black")
   rect(100, 100, 300, 250)
   fill("white")
-  rect(150, 155, 200, 200)
+  rect(165 165, 200, 200)
 
   // Challenge 3: A house using rect() function
 
