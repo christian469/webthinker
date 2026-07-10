@@ -11,7 +11,7 @@ function draw() {
   fill(60, 65, 66)
   ellipse(250, 200, 200, 200)
   fill("white");
-  ellipse(250, 200, 125, 125)
+  ellipse(250, 200, 150, 150)
   fill("black")
   ellipse(250, 200, 40, 40)
 
