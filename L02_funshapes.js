@@ -24,7 +24,7 @@ function draw() {
   // rect(160, 160, 250, 250)
 
   fill("green")
-  triangle(150,200, 250,300, 350,100);
+  triangle(100, 100, 200, 100, 150, 50);
 
   // Challenge 3: A house using rect() function
 
