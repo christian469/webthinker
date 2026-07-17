@@ -15,6 +15,7 @@ let circley = 50;
 
 for( let count=1; count<6; count++) {
   circle(count*50, circley, diameter);
+  circley = circley 
 } 
   // Task 1: Colour Gradient
 
