@@ -18,7 +18,10 @@ let circley = 50;
 //   circley = circley + 50;
 // } 
   // Task 1: Colour Gradient
-let count 
+let count = 1;
+for ( let red = 0; red < 256; red += 35 ) {
+  
+}
   // Task 2: Colour Loop
 
   // Task 3: Row of Circles
