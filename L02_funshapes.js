@@ -8,12 +8,12 @@ background(212, 175, 55);
 
 function draw() {
   // Challenge 1: An eye using ellipse() function
-  fill(60, 65, 66)
-  ellipse(250, 200, 200, 200)
-  fill("white");
-  ellipse(250, 200, 150, 150)
-  fill("black")
-  ellipse(250, 200, 100, 100)
+  // fill(60, 65, 66)
+  // ellipse(250, 200, 200, 200)
+  // fill("white");
+  // ellipse(250, 200, 150, 150)
+  // fill("black")
+  // ellipse(250, 200, 100, 100)
 
   // Challenge 2: A face using circle() function
   circle(300, 200, 150);
