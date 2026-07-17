@@ -28,7 +28,7 @@ function draw() {
 
   // Challenge 3: A house using rect() function
   ellipse(250, 200, 150, 250)
-   triangle(300,200, 250,200, 150,150);
+   triangle(300,200, 250,200, 250,200);
   // rect(150, 10, 200, 100)
 
   // Challenge 4: A rocketship using triangle() function
