@@ -13,10 +13,11 @@ function draw() {
 let diameter = 50;
 let circley = 50;
 
-for( let count=1; count<6; count++) {
-  circle(count*50, circley, diameter);
-  circley = circley + 50;
-} 
+// for( let count=1; count<6; count++) {
+//   circle(count*50, circley, diameter);
+//   circley = circley + 50;
+// } 
+
   // Task 1: Colour Gradient
 
   // Task 2: Colour Loop
