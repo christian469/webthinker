@@ -27,6 +27,7 @@ function draw() {
   // triangle(100,350, 200,350, 150,50);
 
   // Challenge 3: A house using rect() function
+  triangle(300, 200, 150, 200)
   ellipse(250, 200, 150, 250)
   triangle(300, 200, 150, 200)
   // rect(150, 10, 200, 100)
