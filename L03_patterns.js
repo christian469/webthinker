@@ -6,10 +6,14 @@ function setup() {
   
 function draw() {
   // Recap 1: Repeating Circles
- circle(75, 200, 100)
- circle(225, 200, 100)
- circle(375, 200, 100)
- circle(52 5, 200, 100)
+//  circle(75, 200, 100)
+//  circle(225, 200, 100)
+//  circle(375, 200, 100)
+//  circle(52 5, 200, 100)
+
+for( let count=1; count<6; count++) {
+
+} 
   // Task 1: Colour Gradient
 
   // Task 2: Colour Loop
