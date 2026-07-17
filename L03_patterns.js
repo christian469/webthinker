@@ -22,7 +22,7 @@ let count = 1;
 for ( let red = 0; red < 256; red += 35 ) {
   fill(57, 57, 57)
   circle(count*50, circley, diameter);
-  count
+  count = count + 1;
 }
   // Task 2: Colour Loop
 
