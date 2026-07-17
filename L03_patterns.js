@@ -20,7 +20,7 @@ let circley = 50;
   // Task 1: Colour Gradient
 let count = 1;
 for ( let red = 0; red < 256; red += 35 ) {
-  
+  fill
 }
   // Task 2: Colour Loop
 
