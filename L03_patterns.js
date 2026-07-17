@@ -10,6 +10,8 @@ function draw() {
 //  circle(225, 200, 100)
 //  circle(375, 200, 100)
 //  circle(525, 200, 100)
+let diameter = 50;
+
 
 for( let count=1; count<6; count++) {
   circle(150, )
