@@ -11,10 +11,10 @@ function draw() {
 //  circle(375, 200, 100)
 //  circle(525, 200, 100)
 let diameter = 50;
-let y = 50;
+let circley = 50;
 
 for( let count=1; count<6; count++) {
-  circle(150, )
+  circle(150, circley)
 } 
   // Task 1: Colour Gradient
 
