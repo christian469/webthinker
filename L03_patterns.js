@@ -12,7 +12,7 @@ function draw() {
 //  circle(525, 200, 100)
 
 for( let count=1; count<6; count++) {
-  SVGCircleElement()
+  circle(150, )
 } 
   // Task 1: Colour Gradient
 
