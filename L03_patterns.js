@@ -17,9 +17,8 @@ let circley = 50;
 //   circle(count*50, circley, diameter);
 //   circley = circley + 50;
 // } 
-
   // Task 1: Colour Gradient
-
+let count 
   // Task 2: Colour Loop
 
   // Task 3: Row of Circles
