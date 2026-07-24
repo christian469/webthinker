@@ -8,8 +8,10 @@ function setup() {
 function draw() {
     // print(width);
     // print(height);
-    for (let i = 50; i < 5; i++){
-        fill(0, 100, 0);
-        circle()
-    }
+let count = 1;
+for ( let red = 0; red < 256; red += 35 ) {
+  fill(red)
+  circle(count*50, circley, diameter);
+  count = count + 1;
 }
+    }
