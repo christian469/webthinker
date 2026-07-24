@@ -1,4 +1,5 @@
 // write your codes here
+shapeColor = 0
 function setup() {
     createCanvas(200, 200)
     background(220);
@@ -6,7 +7,7 @@ function setup() {
 }
 
 function draw() {
-    fill(0, green, 0);
+    fill(0, shapeColor, 0);
     circle(100, 100, 50);
 //     // print(width);
 //     // print(height);
