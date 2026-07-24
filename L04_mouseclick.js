@@ -9,6 +9,6 @@ function draw() {
     // print(width);
     // print(height);
     for (let i = 50; i < 5; i++){
-        fill();
+        fill(0, 100, 0);
     }
 }
