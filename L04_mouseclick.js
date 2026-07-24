@@ -7,7 +7,7 @@ function setup() {
 }
 
 function draw() {
-    fill(shapeColor, 0);
+    fill(shapeColor);
     circle(100, 100, 50);
 //     // print(width);
 //     // print(height);
