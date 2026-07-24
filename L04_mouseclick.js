@@ -22,6 +22,6 @@ function draw() {
 //   circley += 50;
 // }
 }
-function mouseReleased() {
+function mousePeleased() {
     shapeColor = color(random(255), random(255), random(255));
 }
