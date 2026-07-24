@@ -6,5 +6,6 @@ function setup() {
 }
 
 function draw() {
-    print (width)
+    print (width);
+    print(height)
 }
