@@ -21,3 +21,6 @@ function draw() {
 //   circley += 50;
 // }
 }
+function mouseReleased() {
+    
+}
