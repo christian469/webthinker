@@ -4,3 +4,5 @@ function setup() {
     background("skyblue")
     noloop();
 }
+
+function draw()
