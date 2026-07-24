@@ -8,7 +8,7 @@ function setup() {
 function draw() {
     // print(width);
     // print(height);
-    for (let x = 50; y =50;){
+    for (let i = 50; i<50;){
         fill(y*2);
     }
 }
