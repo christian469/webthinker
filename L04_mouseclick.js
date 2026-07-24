@@ -10,5 +10,6 @@ function draw() {
     // print(height);
     for (let i = 50; i < 5; i++){
         fill(0, 100, 0);
+        circle
     }
 }
