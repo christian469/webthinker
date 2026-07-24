@@ -1,7 +1,7 @@
 // write your codes here
 shapeColor = 0;
 function setup() {
-    createCanvas(200, 200)
+    createCanvas(600, 600)
     background(220);
     // noLoop();
 }
