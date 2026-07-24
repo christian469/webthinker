@@ -7,7 +7,7 @@ function setup() {
 
 function draw() {
     circle(100,100, 50);
-    fill("dark blue")
+    fill("blue");
 //     // print(width);
 //     // print(height);
 // let diameter = 50;
