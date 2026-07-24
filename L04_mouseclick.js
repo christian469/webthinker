@@ -7,7 +7,7 @@ function setup() {
 
 function draw() {
     circle(100,100, 50);
-    fill(0, GPURenderPassEncoder, 0);
+    fill(0, green, 0);
 //     // print(width);
 //     // print(height);
 // let diameter = 50;
