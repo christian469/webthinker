@@ -5,7 +5,7 @@ function setup() {
     noLoop();
 }
 
-// function draw() {
+function draw() {
 //     // print(width);
 //     // print(height);
 // let diameter = 50;
@@ -18,4 +18,4 @@ function setup() {
 //   count = count + 1;
 //   circley += 50;
 // }
-//     }
+    }
