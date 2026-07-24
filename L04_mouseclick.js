@@ -6,7 +6,7 @@ function setup() {
 }
 
 function draw() {
-    circle(100,100 )
+    circle(100,100, 50);
 //     // print(width);
 //     // print(height);
 // let diameter = 50;
