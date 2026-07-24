@@ -12,7 +12,7 @@ let diameter = 50;
 let circley = 50;
 
 let count = 1;
-for ( let red = 0; red < 256; red += 35 ) {
+for ( let green = 100; green < 256; red += 35 ) {
   fill(red)
   circle(count*50, circley, diameter);
   count = count + 1;
