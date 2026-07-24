@@ -5,17 +5,17 @@ function setup() {
     noLoop();
 }
 
-function draw() {
-    // print(width);
-    // print(height);
-let diameter = 50;
-let circley = 50;
+// function draw() {
+//     // print(width);
+//     // print(height);
+// let diameter = 50;
+// let circley = 50;
 
-let count = 1;
-for ( let green = 100; green < 256; green += 35 ) {
-  fill(0, green, 0);
-  circle(count*50, circley, diameter);
-  count = count + 1;
-  circley += 50;
-}
-    }
+// let count = 1;
+// for ( let green = 100; green < 256; green += 35 ) {
+//   fill(0, green, 0);
+//   circle(count*50, circley, diameter);
+//   count = count + 1;
+//   circley += 50;
+// }
+//     }
