@@ -8,7 +8,7 @@ function setup() {
 function draw() {
     // print(width);
     // print(height);
-    let diameter = 50;
+let diameter = 50;
 let circley = 50;
 let count = 1;
 for ( let red = 0; red < 256; red += 35 ) {
