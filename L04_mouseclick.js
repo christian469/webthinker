@@ -6,6 +6,7 @@ function setup() {
 }
 
 function draw() {
+    fill(0, green)
     circle(100,100, 50);
     fill(0, green, 0);
 //     // print(width);
