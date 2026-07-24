@@ -3,7 +3,7 @@ shapeColor = 0;
 function setup() {
     createCanvas(200, 200)
     background(220);
-    noLoop();
+    // noLoop();
 }
 
 function draw() {
