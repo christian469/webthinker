@@ -22,5 +22,5 @@ function draw() {
 // }
 }
 function mouseReleased() {
-    shapeColour = colour
+    shapeColour = colour(random(255))
 }
