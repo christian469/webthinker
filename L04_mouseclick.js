@@ -1,7 +1,7 @@
 // write your codes here
 shapeColor = 0;
 function setup() {
-    createCanvas(600, 600)
+    createCanvas(400, 400)
     background(220);
     // noLoop();
 }
@@ -31,3 +31,6 @@ function setup() {
 // }
 
 
+function mouseMoved(){
+    
+}
