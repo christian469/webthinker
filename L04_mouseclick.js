@@ -1,5 +1,5 @@
 // write your codes here
-shapeColor = 0
+shapeColor = 0;
 function setup() {
     createCanvas(200, 200)
     background(220);
