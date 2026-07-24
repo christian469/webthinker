@@ -5,4 +5,6 @@ function setup() {
     noloop();
 }
 
-function draw()
+function draw() {
+    print (width)
+}
