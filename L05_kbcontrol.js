@@ -27,8 +27,11 @@ function keyPressed(){
     if (key === 'c') {
         showCircle = !showCircle;
     }
-    if (key === 's') {
+    if (key === 'r') {
         showRect = !showRect;
+    }
+    if (key === 's') {
+        show
     }
 }
 
