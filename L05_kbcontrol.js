@@ -34,7 +34,7 @@ function keyPressed() {
     // if (key === 's') {
     //     showSquare = !showSquare
     // }
-
+    
     // print(key);
     print(keyCode);
     if (keyCode === UP_ARROW) {
