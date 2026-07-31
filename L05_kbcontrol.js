@@ -34,7 +34,8 @@ function keyPressed(){
     //     showSquare = !showSquare
     // }
 
-    print(key)
+    print(key);
+    print(keyC)
 }
 
 // function keyReleased() {
