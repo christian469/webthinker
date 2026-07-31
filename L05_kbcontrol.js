@@ -2,7 +2,7 @@
 // shapeColor = 0;
 let showCircle = false;
 let showRect = false;
-let show
+let showSquare = false;
 function setup(){
     createCanvas(600,600)
     background("skyblue");
