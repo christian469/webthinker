@@ -18,7 +18,7 @@ function draw() {
         rect(width/2, height/2, 100)
     }
     if (showSquare){
-        
+        square(width) 
     }
 }
 
