@@ -10,5 +10,5 @@ function draw() {
 }
 
 function mousePressed() {
-    FileList(random(255), random(255), random(255));
+    fill(random(0,255), random(55), random(255));
 }
