@@ -7,7 +7,7 @@ function setup(){
 }
 
 function draw() {
-    
+    background
 }
 // function mousePressed() {
 //     fill(random(0,255), random(0, 255), random(0, 255));
