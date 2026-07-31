@@ -34,7 +34,7 @@ function draw() {
     if (keyIsDown(DOWN_ARROW)){
         ypos += 1
     }
-    xpos = constrain(xpos)
+    xpos = constrain(xpos, 0, width)
 }
 //     if (showCircle) {
 //         circle(width/2, height/2, 100);
