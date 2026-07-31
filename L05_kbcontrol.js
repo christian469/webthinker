@@ -42,7 +42,7 @@ function keyPressed() {
     }
     if(keyCode === DOWN_ARROW) {
         colour = "black"
-        
+        circle
     }
 }
 
