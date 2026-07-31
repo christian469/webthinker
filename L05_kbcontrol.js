@@ -39,9 +39,10 @@ function keyPressed() {
     print(keyCode);
     if (keyCode === UP_ARROW) {
         circle(width/2, height/2, 100);
-        fill ("red");
+        color = "red";
     }
-    
+    if(keyCode === DOWN_ARROW)
+        color = "black"
 }
 
 // function keyReleased() {
