@@ -20,7 +20,7 @@ function keyPressed(){
         showCircle = !showCircle;
     }
     if (key === 's') {
-        showRect = !
+        showRect = !showRect;
     }
 }
 
