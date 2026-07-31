@@ -1,6 +1,4 @@
 size = 5;
-mouseX =
-mouseY = 
 shapeColor = 0;
 function setup(){
     createCanvas(600,600)
@@ -8,9 +6,9 @@ function setup(){
     noStroke();
 }
 
-function draw() {
+// function draw() {
     
-}
+// }
 function mousePressed() {
     fill(random(0,255), random(0, 255), random(0, 255));
     size = 5;
