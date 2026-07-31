@@ -4,7 +4,7 @@
 // let showRect = false;
 // let showSquare = false;
 color1 = red;
-color2 = bla
+color2 = black;
 function setup(){
     createCanvas(600,600)
     background("skyblue");
@@ -40,6 +40,7 @@ function keyPressed() {
     print(keyCode);
     if (keyCode === UP_ARROW) {
         circle(width/2, height/2, 100);
+        fill ()
     }
 }
 
