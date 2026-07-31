@@ -22,7 +22,7 @@ function draw() {
     }
 }
 
-function keyPressed(){
+function keyPressed() {
     // // size = 200;
     // if (key === 'c') {
     //     showCircle = !showCircle;
