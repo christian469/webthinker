@@ -7,3 +7,7 @@ function setup(){
 function draw() {
     fill
 }
+
+function mousePressed() {
+    
+}
