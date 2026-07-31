@@ -34,16 +34,17 @@ function keyPressed() {
     // if (key === 's') {
     //     showSquare = !showSquare
     // }
-    colour = "white"
-    // print(key);
-    print(keyCode);
-    if (keyCode === UP_ARROW) {
-        colour = "red";
-    }
-    if(keyCode === DOWN_ARROW) {
-        colour = "black"
-        circle(width/2, height/2,);
-    }
+    // colour = "white"
+    // // print(key);
+    // print(keyCode);
+    // if (keyCode === UP_ARROW) {
+    //     colour = "red";
+    // }
+    // if(keyCode === DOWN_ARROW) {
+    //     colour = "black"
+    //     circle(width/2, height/2,);
+    // }
+    
 }
 
 // function keyReleased() {
