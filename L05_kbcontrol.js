@@ -40,7 +40,7 @@ function keyPressed() {
     print(keyCode);
     if (keyCode === UP_ARROW) {
         circle(width/2, height/2, 100);
-        fill (color1)
+        fill (color1);
     }
 }
 
