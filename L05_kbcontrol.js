@@ -12,7 +12,7 @@ function draw() {
 }
 
 function keyPressed(){
-    size = 200;
+    // size = 200;
 }
 
 // function keyReleased() {
