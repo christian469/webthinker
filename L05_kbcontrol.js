@@ -3,15 +3,37 @@
 // let showCircle = false;
 // let showRect = false;
 // let showSquare = false;
+let size = 35;
+let showCircle = true;
+let colour = "white"
+xpos = 0;
+ypos = 0;
+
 
 function setup(){
     createCanvas(600,600)
     background("skyblue");
     // noStroke();
+    xpos = width/2
+    ypos = height/2
 }
 
-// function draw() {
-//     background(220);
+function draw() {
+    background("skyblue");
+    fill(colour)
+    circle( xpos, ypos, size);
+    if (keyIsDown(RIGHT_ARROW)) {
+        xpos += 1 ;
+    }
+    if (keyIsDown(LEFT_ARROW)) {
+        xpos -= 1;
+    }
+    if (keyIsDown(UP_ARROW)){
+        ypos -= 1;
+    }
+    if (keyIsDown(DOWN_ARROW)){
+        ypos += 1
+    }
 //     if (showCircle) {
 //         circle(width/2, height/2, 100);
 //     }
@@ -23,7 +45,7 @@ function setup(){
 //     }
 // }
 
-function keyPressed() {
+// function keyPressed() {
     // // size = 200;
     // if (key === 'c') {
     //     showCircle = !showCircle;
@@ -44,7 +66,7 @@ function keyPressed() {
     //     colour = "black"
     //     circle(width/2, height/2,);
     // }
-    
+
 }
 
 // function keyReleased() {
