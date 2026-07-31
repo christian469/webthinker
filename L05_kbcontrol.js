@@ -3,7 +3,7 @@
 // let showCircle = false;
 // let showRect = false;
 // let showSquare = false;
-color
+color1 = ReadableByteStreamController;
 function setup(){
     createCanvas(600,600)
     background("skyblue");
