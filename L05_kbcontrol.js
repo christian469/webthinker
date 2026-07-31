@@ -10,5 +10,5 @@ function draw() {
 }
 
 function mousePressed() {
-    shapeColor = (random(255), random(255), random(255));
+    FileList(random(255), random(255), random(255));
 }
