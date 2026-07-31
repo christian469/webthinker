@@ -41,9 +41,9 @@ function keyPressed() {
         colour = "red";
     }
     if(keyCode === DOWN_ARROW) {
-        colour = 
-    }
         colour = "black"
+        
+    }
 }
 
 // function keyReleased() {
