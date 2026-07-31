@@ -10,4 +10,5 @@ function draw() {
 }
 function mousePressed() {
     fill(random(0,255), random(0, 255), random(0, 255));
+    size = 5;
 }
