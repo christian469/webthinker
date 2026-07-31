@@ -23,16 +23,16 @@ function draw() {
 }
 
 function keyPressed(){
-    // size = 200;
-    if (key === 'c') {
-        showCircle = !showCircle;
-    }
-    if (key === 'r') {
-        showRect = !showRect;
-    }
-    if (key === 's') {
-        showSquare = !showSquare
-    }
+    // // size = 200;
+    // if (key === 'c') {
+    //     showCircle = !showCircle;
+    // }
+    // if (key === 'r') {
+    //     showRect = !showRect;
+    // }
+    // if (key === 's') {
+    //     showSquare = !showSquare
+    // }
 }
 
 // function keyReleased() {
