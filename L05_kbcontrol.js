@@ -34,16 +34,16 @@ function keyPressed() {
     // if (key === 's') {
     //     showSquare = !showSquare
     // }
-    color = "white"
+    colour = "white"
     // print(key);
     print(keyCode);
     if (keyCode === UP_ARROW) {
-        color = "red";
+        colour = "red";
     }
     if(keyCode === DOWN_ARROW) {
-        
+
     }
-        color = "black"
+        colour = "black"
 }
 
 // function keyReleased() {
