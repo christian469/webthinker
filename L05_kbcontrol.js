@@ -15,6 +15,9 @@ function draw() {
 
 function keyPressed(){
     // size = 200;
+    if (key === 'c') {
+        
+    }
 }
 
 // function keyReleased() {
