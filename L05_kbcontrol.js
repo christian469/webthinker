@@ -15,7 +15,7 @@ function draw() {
         circle(width/2, height/2, 100);
     }
     if (showRect){
-        rect(width/2, height/2, 100);
+        rect(width/2, height/3, 200);
     }
     if (showSquare){
         square(width/2, height/2); 
