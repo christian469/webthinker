@@ -16,4 +16,5 @@ function mousePressed() {
 
 function MouseDragged() {
     CSSNumericValue(mouseX, mouseY, size);
+    size = 
 }
