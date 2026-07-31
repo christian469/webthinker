@@ -8,7 +8,9 @@ function setup(){
 
 function draw() {
     background(220);
-    rect( width/2, height/2, size, size);
+    if (showCircle) {
+        
+    }
 }
 
 function keyPressed(){
