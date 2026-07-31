@@ -40,7 +40,9 @@ function keyPressed() {
     if (keyCode === UP_ARROW) {
         color = "red";
     }
-    if(keyCode === DOWN_ARROW)
+    if(keyCode === DOWN_ARROW) {
+        
+    }
         color = "black"
 }
 
