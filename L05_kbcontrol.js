@@ -37,7 +37,7 @@ function keyPressed(){
     print(key);
     print(keyCode);
     if (keyCode === UP_ARROW) {
-        print("i was pressing the ")
+        print("i was pressing the UP arrow key");
     }
 }
 
