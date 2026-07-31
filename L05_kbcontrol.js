@@ -9,7 +9,7 @@ function setup(){
 function draw() {
     background(220);
     if (showCircle) {
-        circle(width/2)
+        circle(width/2, height/2, 100);
     }
 }
 
