@@ -34,6 +34,7 @@ function draw() {
     if (keyIsDown(DOWN_ARROW)){
         ypos += 1
     }
+}
 //     if (showCircle) {
 //         circle(width/2, height/2, 100);
 //     }
@@ -67,7 +68,7 @@ function draw() {
     //     circle(width/2, height/2,);
     // }
 
-}
+// }
 
 // function keyReleased() {
 //     size = 50;
