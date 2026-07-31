@@ -6,9 +6,8 @@ function setup(){
 }
 
 function draw() {
-    circle(300, 300, 250)
+    
 }
-
 function mousePressed() {
-    fill(random(0,255), random(55), random(255));
+    fill(random(0,255), random(0, 255), random(0, 255));
 }
