@@ -31,7 +31,7 @@ function keyPressed(){
         showRect = !showRect;
     }
     if (key === 's') {
-        show
+        showSquare = !showSquare
     }
 }
 
