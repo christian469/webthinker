@@ -3,7 +3,7 @@ shapeColor = 0;
 function setup(){
     createCanvas(600,600)
     background("sky blue");
-    noStroke
+    noStroke();
 }
 
 function draw() {
