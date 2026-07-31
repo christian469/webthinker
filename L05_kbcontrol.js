@@ -8,7 +8,7 @@ function setup(){
 
 function draw() {
     background("skyblue");
-    React()
+    rect( width/2)
 }
 // function mousePressed() {
 //     fill(random(0,255), random(0, 255), random(0, 255));
