@@ -8,7 +8,7 @@ function setup(){
 
 function draw() {
     background("skyblue");
-    rect( width/2)
+    rect( width/2, height/2, )
 }
 // function mousePressed() {
 //     fill(random(0,255), random(0, 255), random(0, 255));
