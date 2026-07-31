@@ -34,6 +34,7 @@ function draw() {
     if (keyIsDown(DOWN_ARROW)){
         ypos += 1
     }
+    xpos = constar
 }
 //     if (showCircle) {
 //         circle(width/2, height/2, 100);
