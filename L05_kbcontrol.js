@@ -33,6 +33,8 @@ function keyPressed(){
     // if (key === 's') {
     //     showSquare = !showSquare
     // }
+
+    print(key)
 }
 
 // function keyReleased() {
