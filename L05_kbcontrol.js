@@ -34,10 +34,10 @@ function keyPressed() {
     //     showSquare = !showSquare
     // }
 
-    print(key);
+    // print(key);
     print(keyCode);
     if (keyCode === UP_ARROW) {
- 
+            
     }
 }
 
