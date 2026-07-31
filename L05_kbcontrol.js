@@ -35,7 +35,10 @@ function keyPressed(){
     // }
 
     print(key);
-    print(keyC)
+    print(keyCode);
+    if (keyCode === UP_ARROW) {
+        
+    }
 }
 
 // function keyReleased() {
