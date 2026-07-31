@@ -9,18 +9,18 @@ function setup(){
     // noStroke();
 }
 
-function draw() {
-    background(220);
-    if (showCircle) {
-        circle(width/2, height/2, 100);
-    }
-    if (showRect){
-        rect(width/4, height/3, 200);
-    }
-    if (showSquare){
-        square(width/2, height/2); 
-    }
-}
+// function draw() {
+//     background(220);
+//     if (showCircle) {
+//         circle(width/2, height/2, 100);
+//     }
+//     if (showRect){
+//         rect(width/4, height/3, 200);
+//     }
+//     if (showSquare){
+//         square(width/2, height/2); 
+//     }
+// }
 
 function keyPressed() {
     // // size = 200;
