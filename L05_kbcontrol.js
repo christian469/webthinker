@@ -1,8 +1,9 @@
 // size = 50;
 // shapeColor = 0;
-let showCircle = false;
-let showRect = false;
-let showSquare = false;
+// let showCircle = false;
+// let showRect = false;
+// let showSquare = false;
+color
 function setup(){
     createCanvas(600,600)
     background("skyblue");
