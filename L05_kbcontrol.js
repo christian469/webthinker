@@ -2,7 +2,7 @@ start = 5;
 shapeColor = 0;
 function setup(){
     createCanvas(600,600)
-    background(220);
+    background("sky blue");
 }
 
 function draw() {
