@@ -1,5 +1,6 @@
-size = 50;
-shapeColor = 0;
+// size = 50;
+// shapeColor = 0;
+
 function setup(){
     createCanvas(600,600)
     background("skyblue");
@@ -16,7 +17,7 @@ function draw() {
 function keyPressed(){
     // size = 200;
     if (key === 'c') {
-        showCircle = !sho
+        showCircle = !showCircle;
     }
 }
 
