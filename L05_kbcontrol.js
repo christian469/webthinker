@@ -1,4 +1,4 @@
-size = 5;
+size = 50;
 shapeColor = 0;
 function setup(){
     createCanvas(600,600)
@@ -8,7 +8,7 @@ function setup(){
 
 function draw() {
     background("skyblue");
-    rect( width/2, height/2, )
+    rect( width/2, height/2, size, size)
 }
 // function mousePressed() {
 //     fill(random(0,255), random(0, 255), random(0, 255));
