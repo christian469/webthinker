@@ -1,6 +1,6 @@
 // size = 50;
 // shapeColor = 0;
-let showCircle = flaswe
+let showCircle = false;
 function setup(){
     createCanvas(600,600)
     background("skyblue");
