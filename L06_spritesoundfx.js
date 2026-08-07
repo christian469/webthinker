@@ -5,7 +5,7 @@ let ypos;
 let picoImg;
 
 function preload() {
-    picoimage = loadImage('assets/pico-a.png');
+    picoImg = loadImage('assets/pico-a.png');
 }
 
 function setup() {
