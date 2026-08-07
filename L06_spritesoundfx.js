@@ -19,6 +19,7 @@ function draw() {
     background("lightblue");
      fill(colour);
     rect(width/2, height/2, 300, 300);
+    fill("black")
     if (keyIsDown(RIGHT_ARROW)) {
         xpos += 1 ;
     }
