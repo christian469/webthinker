@@ -1,7 +1,7 @@
 // let size = 35;
 // let colour = "white"
 let xpos;
-ypos;
+let ypos;
 let picoImg;
 
 function preload() {
