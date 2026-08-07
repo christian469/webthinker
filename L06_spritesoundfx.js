@@ -23,6 +23,6 @@ function draw() {
     if (keyIsDown(RIGHT_ARROW)) {
         xpos = xpos+1;
     }
-    xpos = constrain(xpos, 0, width-55);
-    ypos = constrain(ypos, 0+67, height-67)
+    xpos = constrain(xpos, 0+55, width-55);
+    ypos = constrain(ypos, 0+67, height-67);
 }
