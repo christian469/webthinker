@@ -2,7 +2,7 @@
 // let colour = "white"
 // xpos;
 // ypos;
-
+let picoimage;
 
 function preload() {
     
