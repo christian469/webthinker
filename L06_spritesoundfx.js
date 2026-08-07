@@ -18,7 +18,9 @@ function setup() {
     // image(picoImg, 0,0, 110, 133);
     imageMode(CENTER)
 }
-function keyPressed() 
+function keyPressed() {
+    if (keyCode === 32) 
+}
 
 
 
