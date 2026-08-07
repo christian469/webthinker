@@ -16,7 +16,7 @@ function setup() {
 }
 
 function draw() {
-    background("white");
+    background("lightblue");
      fill(colour);
     circle( xpos, ypos, size);
     if (keyIsDown(RIGHT_ARROW)) {
