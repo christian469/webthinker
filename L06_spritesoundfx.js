@@ -3,5 +3,6 @@ function preload() {
 }
 
 function setup() {
-    createCanvas
+    createCanvas(300, 300)
+    
 }
