@@ -1,7 +1,7 @@
 let size = 35;
 let colour = "white"
-let xpos;
-let ypos;
+xpos;
+ypos;
 
 
 // function preload() {
@@ -17,7 +17,9 @@ function setup() {
 
 function draw() {
     background("lightblue");
+     fill(colour);
     rect(width/2, height/2, 300, 300);
+    fill("black")
     if (keyIsDown(RIGHT_ARROW)) {
         xpos += 1 ;
     }
@@ -30,6 +32,6 @@ function draw() {
     if (keyIsDown(DOWN_ARROW)){
         ypos += 1
     }
-    xpos = constrain(xpos, 75, 325);
-    ypos = constrain(ypos, 50, 325);
+    xpos = constrain(xpos, 75, 300);
+    ypos = constrain(ypos, 50, 300);
 }
