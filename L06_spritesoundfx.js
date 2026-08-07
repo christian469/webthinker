@@ -5,7 +5,7 @@
 let picoimage;
 
 function preload() {
-    picoimage = loadImage
+    picoimage = loadImage('assets');
 }
 
 function setup() {
