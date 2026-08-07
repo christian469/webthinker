@@ -21,10 +21,10 @@ function draw() {
     background("lightblue");
     image(picoImg, xpos, ypos, 110, 133);
     if (keyIsDown(RIGHT_ARROW)) {
-        xpos = xpos+1;
+        xpos = xpos+5;
     }
     if (keyIsDown(LEFT_ARROW)) {
-        xpos = xpos-1;
+        xpos = xpos-5;
     }
 
     xpos = constrain(xpos, 0+55, width-55);
