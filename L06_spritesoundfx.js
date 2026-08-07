@@ -13,7 +13,7 @@ function setup() {
     background("lightblue");
 //     xpos = width/2;
 //     ypos = height/2;
-    image(picoImg, 0,0, 100, 100);
+    image(picoImg, 0,0, 110, 133);
 }
 
 function draw() {
