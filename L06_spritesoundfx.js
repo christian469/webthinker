@@ -8,5 +8,5 @@ function setup() {
 }
 
 function draw() {
-    background("li")
+    background("lightblue");
 }
