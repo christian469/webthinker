@@ -18,7 +18,7 @@ function setup() {
 function draw() {
     background("lightblue");
      fill(colour);
-    
+    rect
     if (keyIsDown(RIGHT_ARROW)) {
         xpos += 1 ;
     }
