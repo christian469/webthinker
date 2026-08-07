@@ -20,7 +20,6 @@ function draw() {
     background("lightblue");
     image(picoImg, xpos, ypos, 110, 133);
     if (keyIsDown(RIGHT_ARROW)) {
-
-        
+        xpos = xpos += 1
     }
 }
