@@ -22,7 +22,7 @@ function keyPressed() {
     if (keyCode === 32) {
         soundSFX.play();
         soundSFX.loop();
-        
+        soundSFX.stop()
     }
 }
 
