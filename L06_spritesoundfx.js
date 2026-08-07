@@ -1,6 +1,6 @@
 let size = 35;
 let colour = "white"
-xpos;
+
 ypos;
 
 
