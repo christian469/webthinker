@@ -18,5 +18,5 @@ function setup() {
 
 function draw() {
     background("lightblue");
-    image()
+    image(picoImg, xpos, ypos)
 }
