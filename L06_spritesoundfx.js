@@ -1,7 +1,7 @@
 let size = 35;
 let colour = "black"
-xpos = 0;
-ypos = 0;
+xpos;
+ypos;
 
 
 // function preload() {
