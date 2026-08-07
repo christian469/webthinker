@@ -1,3 +1,5 @@
 function preload() {
-    
+
 }
+
+function setup()
