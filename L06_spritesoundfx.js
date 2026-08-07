@@ -21,7 +21,8 @@ function setup() {
 function keyPressed() {
     if (keyCode === 32) {
         soundSFX.play();
-        soundSFX
+        soundSFX.loop();
+        
     }
 }
 
