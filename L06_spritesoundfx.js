@@ -13,10 +13,10 @@ function setup() {
     background("lightblue");
 //     xpos = width/2;
 //     ypos = height/2;
-// }
+}
 
-// function draw() {
-//     background("lightblue");
+function draw() {
+    background("lightblue");
 //      fill(colour);
 //     rect(width/2, height/2, 300, 300);
 //     fill("black")
