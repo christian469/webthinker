@@ -27,7 +27,7 @@ function draw() {
         xpos = xpos-5;
     }
     if (keyIsDown(UP_ARROW)) {
-
+        ypos = ypos
     }
 
     xpos = constrain(xpos, 0+55, width-55);
