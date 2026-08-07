@@ -1,7 +1,7 @@
 let size = 35;
 let colour = "white"
-
-ypos;
+let xpos;
+let ypos;
 
 
 // function preload() {
