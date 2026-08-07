@@ -14,7 +14,7 @@ function setup() {
     xpos = width/2;
     ypos = height/2;
     // image(picoImg, 0,0, 110, 133);
-    (center)
+    imageMode(center)
 }
 
 function draw() {
