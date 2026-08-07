@@ -17,4 +17,20 @@ function setup() {
 
 function draw() {
     background("lightblue");
+     fill(colour)
+    circle( xpos, ypos, size);
+    if (keyIsDown(RIGHT_ARROW)) {
+        xpos += 1 ;
+    }
+    if (keyIsDown(LEFT_ARROW)) {
+        xpos -= 1;
+    }
+    if (keyIsDown(UP_ARROW)){
+        ypos -= 1;
+    }
+    if (keyIsDown(DOWN_ARROW)){
+        ypos += 1
+    }
+    xpos = constrain(xpos, 0, width);
+    ypos = constrain(ypos, 0, height);
 }
