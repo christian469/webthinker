@@ -1,5 +1,5 @@
 let size = 35;
-let colour = "black"
+let colour = "white"
 xpos;
 ypos;
 
