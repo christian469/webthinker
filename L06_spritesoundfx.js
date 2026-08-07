@@ -9,7 +9,7 @@ ypos;
 // }
 
 function setup() {
-    createCanvas(300, 300);
+    createCanvas(400, 400);
     background("lightblue");
     xpos = width/2;
     ypos = height/2;
