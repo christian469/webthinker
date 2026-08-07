@@ -11,7 +11,6 @@ ypos = 0;
 function setup() {
     createCanvas(300, 300);
     background("lightblue");
-    fill("white");
     xpos = width/2;
     ypos = height/2;
 }
