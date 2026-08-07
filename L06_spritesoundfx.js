@@ -7,7 +7,7 @@ let soundSFX;
 
 function preload() {
     picoImg = loadImage('assets/pico-a.png');
-    soundSFX
+    soundSFX = loadSound
 }
 
 function setup() {
