@@ -2,7 +2,7 @@
 // let colour = "white"
 // xpos;
 // ypos;
-let picoimage;
+let picoimg;
 
 function preload() {
     picoimage = loadImage('assets/pico-a.png');
@@ -13,7 +13,7 @@ function setup() {
     background("lightblue");
 //     xpos = width/2;
 //     ypos = height/2;
-    Image(picoimage, )
+    Image(picoimg, )
 }
 
 function draw() {
