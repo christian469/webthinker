@@ -24,7 +24,7 @@ function draw() {
         ballSpeedY = -1 * ballSpeedY
     }
     if (ballY > height-15){
-        ballSpeedY
+        ballSpeedY = -1 * 
     }
 }
 
