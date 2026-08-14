@@ -1,7 +1,7 @@
-ballX = 300;
-ballY = 200;
-ballSize = 30;
-ballSpeedX = 3;
+let ballX = 300;
+let ballY = 200;
+let ballSize = 30;
+let ballSpeedX = 3;
 ballSpeedY = 2;
 function setup() {
     noStroke();
