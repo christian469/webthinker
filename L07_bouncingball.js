@@ -17,7 +17,7 @@ function draw() {
 
     if (ballX < 0+15) {
         ballSpeedX = -1 * ballSpeedX
-        fill( random(0, 255))
+        fill( random(0, 255), (0, 255))
     }
     if (ballX > width-15){
         ballSpeedX = -1 * ballSpeedX
