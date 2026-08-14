@@ -28,7 +28,7 @@ function setup() {
 function keyPressed() {
     if (keyCode === 32) {
         soundSFX.play();
-        
+        picoImg = width/2
     }
 }
 
