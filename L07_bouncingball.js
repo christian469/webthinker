@@ -19,7 +19,7 @@ function draw() {
         ballY = ballY -5;
     }
     if (keyIsDown(DOWN_ARROW)) {
-        ypos = ypos +5;
+        ballY = ballY +5;
     }
     circle(ballX, ballY, ballSize);
     if (ballX < 0);
