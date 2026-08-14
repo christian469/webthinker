@@ -23,7 +23,7 @@ function draw() {
     }
     circle(ballX, ballY, ballSize);
     if (ballX < 0);
-    ballspeedX =-1 * ballspeedX
+    ballspeedX =-1 * ballSpeedX
 
 }
 
