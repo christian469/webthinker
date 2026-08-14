@@ -12,7 +12,9 @@ function draw() {
     circle(ballX, ballY, ballSize);
     ballX += ballSpeedX;
     ballY += ballSpeedY;
-    if (ballX < 0);
+
+
+    if (ballX < 0+15);
     ballspeedX =-1 * ballspeedX
 
 }
