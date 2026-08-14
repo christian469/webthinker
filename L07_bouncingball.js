@@ -1,8 +1,8 @@
 let ballX = 300;
 let ballY = 200;
 let ballSize = 30;
-let ballSpeedX = 1715;
-let ballSpeedY = 1715;
+let ballSpeedX = 15;
+let ballSpeedY = 15;
 function setup() {
     // noStroke();
     createCanvas(600, 400);
