@@ -20,6 +20,9 @@ function draw() {
     if (ballX > width-15){
         ballSpeedX = -1 * ballSpeedX
     }
+    if (ballY < 0+15) {
+        
+    }
 
 }
 
