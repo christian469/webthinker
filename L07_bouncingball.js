@@ -13,10 +13,10 @@ function draw() {
         ballX = ballX +5;
     }
     if (keyIsDown(LEFT_ARROW)) {
-        xpos = xpos -5;
+        ballX = ballX -5;
     }
     if (keyIsDown(UP_ARROW)) {
-        ypos = ypos -5;
+    b = ypos -5;
     }
     if (keyIsDown(DOWN_ARROW)) {
         ypos = ypos +5;
