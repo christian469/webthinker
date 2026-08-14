@@ -1,29 +1,18 @@
 ballX = 300;
 ballY = 200;
 ballSize = 30;
-ballSpeedX = 20;
-ballSpeedY = 20;
+ballSpeedX;
+ballSpeedY;
 function setup() {
     createCanvas(600, 400);
     background(0);
 }
 
 function draw() {
-    if (keyIsDown(RIGHT_ARROW)) {
-        ballX = ballX +5;
-    }
-    if (keyIsDown(LEFT_ARROW)) {
-        ballX = ballX -5;
-    }
-    if (keyIsDown(UP_ARROW)) {
-        ballY = ballY -5;
-    }
-    if (keyIsDown(DOWN_ARROW)) {
-        ballY = ballY +5;
-    }
+    
     circle(ballX, ballY, ballSize);
     if (ballX < 0);
-    ballspeedX =-1 * ballSpeedX
+    ballspeedX =-1 * ballspeedX
 
 }
 
