@@ -33,7 +33,7 @@ function draw() {
         fill( random(0, 255), (0, 255), 0);
     }
 }
-fuction keyPresse
+function keyPressed()
 
 
 
