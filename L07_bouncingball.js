@@ -9,6 +9,18 @@ function setup() {
 }
 
 function draw() {
+    if (keyIsDown(RIGHT_ARROW)) {
+        xpos = xpos +5;
+    }
+    if (keyIsDown(LEFT_ARROW)) {
+        xpos = xpos -5;
+    }
+    if (keyIsDown(UP_ARROW)) {
+        ypos = ypos -5;
+    }
+    if (keyIsDown(DOWN_ARROW)) {
+        ypos = ypos +5;
+    }
     circle(ballX, ballY, ballSize);
     if (ballX < 0);
     ballspeedX =-1 * ballspeedX
