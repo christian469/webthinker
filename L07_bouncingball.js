@@ -4,6 +4,7 @@ ballSize = 30;
 ballSpeedX = 3;
 ballSpeedY = 2;
 function setup() {
+    noStroke();
     createCanvas(600, 400);
     background(0);
 }
