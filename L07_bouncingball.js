@@ -10,6 +10,7 @@ function setup() {
 
 function draw() {
     circle(ballX, ballY, ballSize);
+    ballX += ballSpeedX
     
     if (ballX < 0);
     ballspeedX =-1 * ballspeedX
