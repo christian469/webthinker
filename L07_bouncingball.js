@@ -17,7 +17,7 @@ function draw() {
         ballY = ballY -5;
     }
     if (keyIsDown(DOWN_ARROW)) {
-        ballY = ypos +5;
+        ballY = ballY +5;
     }
 }
 
