@@ -33,7 +33,9 @@ function draw() {
         fill( random(0, 255), (0, 255), 0);
     }
 }
-function keyPressed()
+function keyPressed(){
+    if (keyCode === UP_ARROW)
+}
 
 
 
