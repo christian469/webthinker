@@ -9,7 +9,7 @@ function setup() {
 }
 
 function draw() {
-    circle( )
+    circle(ballX, ballY,  )
 }
 
 
