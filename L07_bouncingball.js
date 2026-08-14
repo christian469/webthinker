@@ -10,6 +10,9 @@ function setup() {
 
 function draw() {
     circle(ballX, ballY, ballSize);
+    if (keyIsDown(RIGHT_ARROW)) {
+        ballX = ballX +5;
+    }
     if (keyIsDown(LEFT_ARROW)) {
         ballX = ballX -5;
     }
