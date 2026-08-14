@@ -1,5 +1,5 @@
-ballX;
-ballY;
+ballX = 300;
+ballY = 200;
 ballSize = 30;
 ballSpeedX;
 ballSpeedY;
