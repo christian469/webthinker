@@ -1,6 +1,6 @@
 ballX;
 ballY;
-ballSize;
+ballSize = 30;
 ballSpeedX;
 ballSpeedY;
 function setup() {
@@ -9,7 +9,7 @@ function setup() {
 }
 
 function draw() {
-    
+
 }
 
 
