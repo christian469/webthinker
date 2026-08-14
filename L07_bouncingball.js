@@ -12,7 +12,6 @@ let ypos;
 let picoImg;
 let soundSFX;
 
-
 function preload() {
     picoImg = loadImage('assets/pico-a.png');
     soundSFX = loadSound('assets/pop.mp3');
@@ -29,7 +28,6 @@ function setup() {
 function keyPressed() {
     if (keyCode === 32) {
         soundSFX.play();
-        picoImg = width/2
     }
 }
 
