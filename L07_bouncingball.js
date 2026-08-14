@@ -11,7 +11,7 @@ function setup() {
 function draw() {
     circle(ballX, ballY, ballSize);
     if (ballX < 0);
-    
+    ballspeedX =-1 
 
 }
 
