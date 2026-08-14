@@ -4,7 +4,7 @@ function setup() {
 }
 
 function draw() {
-
+    
 
 
 
@@ -15,6 +15,15 @@ function draw() {
 
 
 }
+
+
+
+
+
+
+
+
+
 // let xpos;
 // let ypos;
 // let picoImg;
