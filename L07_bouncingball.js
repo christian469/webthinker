@@ -4,15 +4,6 @@ function setup() {
 }
 
 function draw() {
-    
-
-
-
-
-
-
-
-
 
 }
 
