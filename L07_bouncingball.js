@@ -10,7 +10,7 @@ function setup() {
 
 function draw() {
     if (keyIsDown(RIGHT_ARROW)) {
-        xpos = xpos +5;
+        ballX = ballX +5;
     }
     if (keyIsDown(LEFT_ARROW)) {
         xpos = xpos -5;
