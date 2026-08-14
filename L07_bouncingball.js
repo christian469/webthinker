@@ -10,7 +10,15 @@ function setup() {
 
 function draw() {
     circle(ballX, ballY, ballSize);
-    
+    if (keyIsDown(LEFT_ARROW)) {
+        xpos = xpos -5;
+    }
+    if (keyIsDown(UP_ARROW)) {
+        ypos = ypos -5;
+    }
+    if (keyIsDown(DOWN_ARROW)) {
+        ypos = ypos +5;
+    }
 }
 
 
