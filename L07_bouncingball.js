@@ -2,7 +2,7 @@ ballX = 300;
 ballY = 200;
 ballSize = 30;
 ballSpeedX = 3;
-ballSpeedY;
+ballSpeedY = 2;
 function setup() {
     createCanvas(600, 400);
     background(0);
