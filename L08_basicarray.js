@@ -1,8 +1,5 @@
 function setup(){ 
     createCanvas(600, 600);
-}       
-
-function draw() {
     background("black");
     fill("yellow");
 
@@ -14,4 +11,8 @@ function draw() {
         text( foodList[count], 50, ypos );
         ypos = ypos + 50;
     }
+}       
+
+function draw() {
+
 }
