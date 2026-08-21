@@ -1,4 +1,11 @@
-let storyText = [
+function setup(){ 
+    createCanvas(600, 600);
+    // background("black");
+    fill("yellow");
+    yPos = height / 2;
+    textSize(24);
+    textAlign(CENTER, CENTER);
+    let storyText = [
     "A long time ago in a galaxy far,",
     "far away...",
     "",
@@ -909,13 +916,13 @@ let storyText = [
     "",
     "May the Code be with you!",
 ]
-function setup(){ 
-    createCanvas(600, 600);
-    // background("black");
-    fill("yellow");
-    yPos = height / 2;
-    textSize(24);
-    textAlign(CENTER, CENTER);
+// function setup(){ 
+//     createCanvas(600, 600);
+//     // background("black");
+//     fill("yellow");
+//     yPos = height / 2;
+//     textSize(24);
+//     textAlign(CENTER, CENTER);
     // let foodList = ["whopper", "tacos", "ice cream", "fried chicken", "chicken rice", "chessy fries"];
     // for (let count=0; count < foodList.length; count++){
     //     print( foodList[0] );
@@ -924,10 +931,10 @@ function setup(){
     // }
 }       
 
-function draw() {
-        background('black');
-    fill("yellow");
-    textSize(16);
-    textAlign(CENTER,CENTER);
+// function draw() {
+//         background('black');
+//     fill("yellow");
+//     textSize(16);
+//     textAlign(CENTER,CENTER);
 
-}
+// }
