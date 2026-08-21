@@ -3,7 +3,7 @@ function setup(){
 }
 
 function draw() {
-    background("black");
+    // background("black");
     textSize(35);
     text("my name is christian", 50, 50);
     text("my age is 999", 50, 100);
