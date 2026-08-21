@@ -1,7 +1,7 @@
 function setup(){ 
     createCanvas(600, 600);
     // background("black");
-    // fill("yellow");
+    fill("yellow");
     yPos = height;
     textSize(24);
     textAlign(CENTER, CENTER);
