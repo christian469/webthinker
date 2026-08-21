@@ -4,5 +4,7 @@ function setup(){
 
 function draw() {
     background("black");
-    fill()
+    fill("yellow");
+
+    text
 }
