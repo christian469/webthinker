@@ -3,7 +3,7 @@ function setup(){
 }
 
 function draw() {
-    // background("black");
+    background("black");
     textSize(35);
     textColor("white");
     text("my name is christian", 50, 50);
