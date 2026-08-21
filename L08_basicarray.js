@@ -8,5 +8,5 @@ function draw() {
 
     textSize(38);
     let ypos = 50;
-    let foodList = ["burger, "]
+    let foodList = ["burger, tacos, ice cream, "]
 }
