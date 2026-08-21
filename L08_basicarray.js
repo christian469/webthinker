@@ -2,9 +2,9 @@ function setup(){
     createCanvas(600, 600);
     background("black");
     fill("yellow");
-    ypos = height
+    ypos = height;
     textSize(38);
-    let ypos = height;
+    let ypos     
     let foodList = ["whopper", "tacos", "ice cream", "fried chicken", "chicken rice", "chessy fries"];
     for (let count=0; count < foodList.length; count++){
         print( foodList[0] );
