@@ -5,7 +5,7 @@ function setup(){
 
     textSize(38);
     let ypos = 50;
-    let foodList = ["burger", "tacos", "ice cream", "fried chicken", "chicken rice"];
+    let foodList = ["whopper", "tacos", "ice cream", "fried chicken", "chicken rice", "chessy"];
     for (let count=0; count < foodList.length; count++){
         print( foodList[0] );
         text( foodList[count], 50, ypos );
