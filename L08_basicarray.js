@@ -6,5 +6,5 @@ function draw() {
     background("black");
     fill("yellow");
 
-    text
+    textSize(38);
 }
