@@ -910,7 +910,6 @@ let storyText = [
     "animations...",
     "",
     "May the Code be with you!",
-    "I LOVE FINGERING WOMANS AND LITTLE KIDS!!!"
 ];
 let ypos;
 let bgmusic;
