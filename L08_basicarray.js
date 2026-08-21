@@ -4,7 +4,7 @@ function setup(){
     fill("yellow");
     let ypos = height;
     textSize(38);
-    textAlign(CENTER, CENTER)
+    textAlign(CENTER, CENTER);
     let foodList = ["whopper", "tacos", "ice cream", "fried chicken", "chicken rice", "chessy fries"];
     for (let count=0; count < foodList.length; count++){
         print( foodList[0] );
