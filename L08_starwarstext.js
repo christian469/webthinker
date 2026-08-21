@@ -1,11 +1,6 @@
-function setup(){ 
-    createCanvas(600, 600);
-    // background("black");
-    fill("yellow");
-    yPos = height / 2;
-    textSize(24);
-    textAlign(CENTER, CENTER);
-    let storyText = [
+// write your codes here
+
+let storyText = [
     "A long time ago in a galaxy far,",
     "far away...",
     "",
@@ -915,26 +910,54 @@ function setup(){
     "animations...",
     "",
     "May the Code be with you!",
-]
-// function setup(){ 
-//     createCanvas(600, 600);
-//     // background("black");
-//     fill("yellow");
-//     yPos = height / 2;
-//     textSize(24);
-//     textAlign(CENTER, CENTER);
-    // let foodList = ["whopper", "tacos", "ice cream", "fried chicken", "chicken rice", "chessy fries"];
-    // for (let count=0; count < foodList.length; count++){
-    //     print( foodList[0] );
-    //     text( foodList[count], 50, ypos );
-    //     ypos = ypos + 50;
-    // }
-}       
+    "I LOVE FINGERING WOMANS AND LITTLE KIDS!!!"
+];
+let ypos;
+let bgmusic;
+let startAudio;
 
-// function draw() {
-//         background('black');
-//     fill("yellow");
-//     textSize(16);
-//     textAlign(CENTER,CENTER);
 
-// }
+
+function preload(){
+    bgmusic = loadSound("assets/star_wars_theme_8_bit.mp3");
+}
+
+
+function setup(){
+    createCanvas(600,400);
+    ypos = height/2;
+    startAudio = false;
+}
+
+
+function draw(){
+    background('black');
+    fill("yellow");
+    textSize(16);
+    textAlign(CENTER,CENTER);
+
+    if (startAudio){
+        for (let i = 0; i < storyText.length; i++){
+            let sentence = storyText[i];
+            text(sentence, width/2, ypos + i * 30);
+        }
+        ypos = ypos - 1;
+    }    
+
+    else{
+        text("Click mouse to start Star Waes...", width/2, height/2);
+    }
+}
+    
+    function mousePressed(){
+        startAudio = !startAudio;
+
+        if (startAudio){
+            bgmusic.loop();
+            ypos = height;
+        }
+        else{
+            bgmusic.stop();
+            ypos = height;
+        }
+    }
