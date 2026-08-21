@@ -15,5 +15,5 @@ function setup(){
 
 function draw() {
     background(0);
-    text
+    text("moving text")
 }
