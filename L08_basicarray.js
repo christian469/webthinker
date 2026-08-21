@@ -3,7 +3,7 @@ function setup(){
     // background("black");
     // fill("yellow");
     let ypos = height;
-    textSize(38);
+    textSize(24);
     textAlign(CENTER, CENTER);
     // let foodList = ["whopper", "tacos", "ice cream", "fried chicken", "chicken rice", "chessy fries"];
     // for (let count=0; count < foodList.length; count++){
@@ -15,6 +15,7 @@ function setup(){
 
 function draw() {
     background(0);
+    
     text("moving text", width/2, ypos);
     yPos -= 0.6;
 }
