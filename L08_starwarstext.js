@@ -925,9 +925,8 @@ function setup(){
 }       
 
 function draw() {
-    background(0);
-
-    text("", width / 2, yPos);
-
-    yPos -= 0.6;
+        background('black');
+    fill("yellow");
+    textSize(16);
+    textAlign(CENTER,CENTER);
 }
