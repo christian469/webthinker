@@ -4,5 +4,6 @@ function setup(){
 
 function draw() {
     backgrounda("black");
-    textSize(35)
+    textSize(35);
+    text("")
 }
