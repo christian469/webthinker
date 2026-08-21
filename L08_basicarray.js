@@ -1,7 +1,7 @@
 function setup(){ 
     createCanvas(600, 600);
-    background("black");
-    fill("yellow");
+    // background("black");
+    // fill("yellow");
     let ypos = height;
     textSize(38);
     textAlign(CENTER, CENTER);
@@ -15,4 +15,5 @@ function setup(){
 
 function draw() {
     background(0);
+    text
 }
