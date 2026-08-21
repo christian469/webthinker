@@ -5,5 +5,6 @@ function setup(){
 function draw() {
     backgrounda("black");
     textSize(35);
-    text("")
+    text("christian", 50, 50);
+    t
 }
