@@ -2,7 +2,7 @@ function setup(){
     createCanvas(600, 600);
     // background("black");
     // fill("yellow");
-    let ypos = height;
+    let yPos = height;
     textSize(24);
     textAlign(CENTER, CENTER);
     // let foodList = ["whopper", "tacos", "ice cream", "fried chicken", "chicken rice", "chessy fries"];
