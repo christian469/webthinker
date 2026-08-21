@@ -7,4 +7,5 @@ function draw() {
     fill("yellow");
 
     textSize(38);
+    let ypos = 50;
 }
