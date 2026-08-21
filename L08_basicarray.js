@@ -1,3 +1,3 @@
 function setup(){ 
-    cra
+    createCanvas(400, 600)
 }
