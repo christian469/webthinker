@@ -18,15 +18,15 @@ function draw() {
 
 
     if (X < 0+15) {
-        speedX = -1 * speedX
+        speedX = -1 * speed
         fill( random(0, 255), (0, 255), 0);
     }
     if (X > width-15){
-        speedX = -1 * speedX
+        speed = -1 * speed
         fill( random(0, 255), (0, 255), 0);
     }
     if (Y < 0+15) {
-        speedY = -1 * speedY
+        speed = -1 * speed
         fill( random(0, 255), (0, 255), 0);
     }
     if (ballY > height-15){
