@@ -13,4 +13,8 @@ function draw(){
     background("lightgray");
     Text("bouncer!!!", xpos, height/2);
     xos = xpos + speed;
+
+    if (Xpos > width){
+    
+    }
 }
