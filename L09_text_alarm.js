@@ -59,7 +59,7 @@ function setup(){
     textSize(80);
     textFont("cosmic san")
     textAlign(CENTER, CENTER)
-    countdown = 10000000000000000000000000;
+    countdown = 1000000;
 }
 
 function draw(){
