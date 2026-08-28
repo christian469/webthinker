@@ -5,13 +5,13 @@ function setup() {
     createCanvas(600,600);
     textAlign(CENTER, CENTER);
     textSize(48);
-    xpos = width/2
+    Xpos = width/2
     speed = 2;
 }
 
 function draw(){
     background("lightgray");
-    Text("bouncer!!!", xpos, height/2);
+    Text("bouncer!!!", Xpospos, height/2);
     xos = xpos + speed;
 
     if (Xpos > width){
