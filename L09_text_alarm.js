@@ -11,5 +11,5 @@ function setup() {
 
 function draw(){
     background("lightgray");
-    Text("bouncer!!!")
+    Text("bouncer!!!", xpos, height/2);xpos
 }
