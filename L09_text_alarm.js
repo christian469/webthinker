@@ -7,5 +7,8 @@ function setup() {
     textSize(48);
     xpos = width/2
     speed = 2;
+}
 
+functipn draw(){
+    
 }
