@@ -1,5 +1,5 @@
-// write your codes herelet ballX = 300;
-
+// write your codes here
+let ballX = 300;
 let ballY = 200;
 let ballSize = 30;
 let ballSpeedX = 15;
