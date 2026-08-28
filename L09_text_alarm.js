@@ -10,5 +10,6 @@ function setup() {
 }
 
 function draw(){
-    background("lightgray")
+    background("lightgray");
+    text
 }
