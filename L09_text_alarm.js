@@ -1,11 +1,11 @@
-let Xpos;
+let xpos;
 let speed;
 
 function setup() {
     createCanvas(600,600);
     textAlign(CENTER, CENTER);
     textSize(48);
-    Xpos = width/2
+    xpos = width/2
     speed = 2;
 }
 
