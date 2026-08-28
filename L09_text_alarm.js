@@ -9,6 +9,6 @@ function setup() {
     speed = 2;
 }
 
-functipn draw(){
-    
+function draw(){
+    back
 }
