@@ -18,7 +18,7 @@ function draw(){
         speed = speed * -1;
     }
     
-    if (Xpos < 0){
+    if (xpos < 0){
         speed = speed *-1;
     }
 }
