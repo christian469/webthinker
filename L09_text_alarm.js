@@ -13,8 +13,8 @@ function setup() {
 
 function draw() {
     circle(X, Y, Size);
-    X += ballSpeedX;
-    ballY += ballSpeedY;
+    X += speedX;
+    Y += ballSpeedY;
 
 
     if (ballX < 0+15) {
