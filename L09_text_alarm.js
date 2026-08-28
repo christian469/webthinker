@@ -2,8 +2,8 @@
 let X = 300;
 let Y = 200;
 let size = 30;
-let SpeedX = 15;
-let SpeedY = 15;
+let speedX = 15;
+let speedY = 15;
 function setup() {
     // noStroke();
     createCanvas(600, 400);
