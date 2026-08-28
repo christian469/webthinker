@@ -12,8 +12,8 @@ function setup() {
 }
 
 function draw() {
-    circle(X, ballY, ballSize);
-    ballX += ballSpeedX;
+    circle(X, Y, Size);
+    X += ballSpeedX;
     ballY += ballSpeedY;
 
 
