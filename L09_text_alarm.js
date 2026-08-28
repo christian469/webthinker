@@ -1,6 +1,6 @@
 // write your codes here
 let X = 300;
-let ballY = 200;
+let Y = 200;
 let Size = 30;
 let SpeedX = 15;
 let SpeedY = 15;
@@ -12,7 +12,7 @@ function setup() {
 }
 
 function draw() {
-    circle(ballX, ballY, ballSize);
+    circle(X, ballY, ballSize);
     ballX += ballSpeedX;
     ballY += ballSpeedY;
 
