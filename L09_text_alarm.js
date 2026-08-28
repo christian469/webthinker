@@ -39,7 +39,7 @@ function draw() {
     let timeString = xhouor + ":" + xminute + ":" + xsecond;
 
 
-    text(timeString, width)
+    text(timeString, width/2, height/2)
 }
 
 
