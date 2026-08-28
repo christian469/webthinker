@@ -33,7 +33,7 @@ function setup() {
 function draw() {
     background("skyblue");
 
-    let xhour = nf
+    let xhour = nf( hour(), 2)
 }
 
 
