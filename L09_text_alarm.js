@@ -34,7 +34,8 @@ function draw() {
     background("skyblue");
 
     let xhour = nf( hour(), 2 );
-    let xminute =nf( minute)
+    let xminute =nf( minute(), 2);
+    
 }
 
 
