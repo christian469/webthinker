@@ -17,11 +17,11 @@ function draw() {
     Y += speedY;
 
 
-    if (ballX < 0+15) {
+    if (X < 0+15) {
         speedX = -1 * speedX
         fill( random(0, 255), (0, 255), 0);
     }
-    if (ballX > width-15){
+    if (X > width-15){
         speedX = -1 * speedX
         fill( random(0, 255), (0, 255), 0);
     }
