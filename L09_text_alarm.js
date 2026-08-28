@@ -26,7 +26,8 @@
 function setup() {
     createCanvas(400, 200);
     background("skyblue");
-    textSize()
+    textSize(32);
+    
 }
 
 
