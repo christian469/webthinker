@@ -30,7 +30,9 @@ function setup() {
     textAlign(CENTER,CENTER);
 }
 
-
+fuction draw() {
+    
+}
 
 
 
