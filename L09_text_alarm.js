@@ -24,7 +24,7 @@
 // }
 
 function setup() {
-    createCAnva
+    createCanvas(400,)
 }
 
 
