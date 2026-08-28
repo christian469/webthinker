@@ -1,9 +1,9 @@
 // write your codes here
-let ballX = 300;
+let X = 300;
 let ballY = 200;
-let ballSize = 30;
-let ballSpeedX = 15;
-let ballSpeedY = 15;
+let Size = 30;
+let SpeedX = 15;
+let SpeedY = 15;
 function setup() {
     // noStroke();
     createCanvas(600, 400);
