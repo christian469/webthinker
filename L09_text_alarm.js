@@ -11,10 +11,10 @@ function setup() {
 
 function draw(){
     background("lightgray");
-    Text("bouncer!!!", Xpos, height/2);
-    Xpos = Xpos + speed;
+    Text("bouncer!!!", xpos, height/2);
+    xpos = xpos + speed;
 
-    if (Xpos > width){
+    if (xpos > width){
         speed = speed * -1;
     }
     
