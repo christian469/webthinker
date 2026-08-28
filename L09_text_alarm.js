@@ -22,7 +22,7 @@ function draw() {
         fill( random(0, 255), (0, 255), 0);
     }
     if (ballX > width-15){
-        ballSpeedX = -1 * ballSpeedX
+        speedX = -1 * speedX
         fill( random(0, 255), (0, 255), 0);
     }
     if (ballY < 0+15) {
