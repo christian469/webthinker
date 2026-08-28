@@ -27,8 +27,9 @@ function setup() {
     createCanvas(400, 200);
     background("skyblue");
     textSize(32);
-    textAlign(CENTER,CENTER)
+    textAlign(CENTER,CENTER);
 }
+
 
 
 
