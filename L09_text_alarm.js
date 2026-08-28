@@ -11,7 +11,7 @@ function setup() {
 
 function draw(){
     background("lightgray");
-    Text("bouncer!!!", xpos, height/2);
+    Text("bounce!", xpos, height/2);
     xpos = xpos + speed;
 
     if (xpos > width){
