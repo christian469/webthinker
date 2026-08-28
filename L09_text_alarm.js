@@ -63,7 +63,7 @@ function setup(){
 }
 
 function draw(){
-    background('mettalicgold');
+    background('Metallicgold');
     csecond = second();
     cminute = minute();
     chour = hour();
