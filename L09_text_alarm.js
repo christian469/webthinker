@@ -1,7 +1,7 @@
 // write your codes here
 let X = 300;
 let Y = 200;
-let Size = 30;
+let size = 30;
 let SpeedX = 15;
 let SpeedY = 15;
 function setup() {
@@ -12,7 +12,7 @@ function setup() {
 }
 
 function draw() {
-    circle(X, Y, Size);
+    circle(X, Y, size);
     X += speedX;
     Y += speedY;
 
