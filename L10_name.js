@@ -1,4 +1,3 @@
-// write your codes herelet displayText;
 let displayName;
 let displayAge;
 
