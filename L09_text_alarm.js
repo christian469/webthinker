@@ -176,7 +176,7 @@ function mousePressed(){
     timer = setInterval(countdown, 1000);
 }
 
-function countdown(){
+function countDown(){
     if(countdown >0){
         countdown--;
     }else{
