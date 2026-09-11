@@ -162,7 +162,7 @@ function setup(){
     textAlign(200,200)
 }
 function draw(){
-    
+    background
 }
 
 
