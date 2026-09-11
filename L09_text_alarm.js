@@ -158,16 +158,16 @@
 let countdown = 5;
 let timer;
 function setup(){
-    createCanvas(400,400)
-    textAlign(200,200)
+    createCanvas(400,400);
+    textAlign(200,200);
 }
 function draw(){
-    background(0)
-    textSize(60)
-    Text(countdown,200,200)
+    background(0);
+    textSize(60);
+    Text(countdown,200,200);
 
-    textSize(18)
-    text("click me tostart the timer", 100,300)
+    textSize(18);
+    text("click me tostart the timer", 100,300);
 }
 
 function mousePressed(){
