@@ -22,7 +22,7 @@ function setup(){
    colorPicker.position(300, height - 50) 
    
    colorPicker2 = createColorPicker("white");
-   colorPicker2.position(310, height -20)
+   colorPicker2.position(330, height -20)
 
 }
 
