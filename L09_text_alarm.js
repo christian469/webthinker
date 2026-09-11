@@ -167,7 +167,7 @@ function draw(){
     Text(countdown,200,200)
 
     textSize(18)
-    text("click me tostart the timer")
+    text("click me tostart the timer", 100,300)
 }
 
 
