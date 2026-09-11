@@ -165,6 +165,8 @@ function draw(){
     background(0)
     textSize(60)
     Text(countdown,200,200)
+
+    textSize(18)
 }
 
 
