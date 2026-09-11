@@ -162,7 +162,8 @@ function setup(){
     textAlign(200,200)
 }
 function draw(){
-    background
+    background(0)
+    textSize()
 }
 
 
