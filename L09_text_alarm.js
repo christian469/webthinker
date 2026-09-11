@@ -164,7 +164,7 @@ function setup(){
 function draw(){
     background(0)
     textSize(60)
-    text
+    Text(countdown,200,200)
 }
 
 
