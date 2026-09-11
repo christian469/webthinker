@@ -128,7 +128,7 @@ function setup(){
     textSize(80);
     textFont("cosmic san")
     textAlign(CENTER, CENTER)
-    countdown = 666;
+    countdown = 5;
 }
 
 function draw(){
