@@ -167,7 +167,7 @@ function draw(){
     Text(countdown,180,200);
 
     textSize(18);
-    text("click me tostart the timer", 100,300);
+    text("click me tostart the timer", 100,250);
 }
 
 function mousePressed(){
