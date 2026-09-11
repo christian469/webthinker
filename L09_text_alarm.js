@@ -159,7 +159,7 @@ let countdown = 5;
 let timer;
 function setup(){
     createCanvas(400,400)
-    
+    textAlign(200,200)
 }
 
 
