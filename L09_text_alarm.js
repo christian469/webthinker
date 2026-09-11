@@ -155,7 +155,8 @@
 //     }
 // }
 
-leyt countdow = 
+let countdown = 5;
+let timer;
 
 
 
