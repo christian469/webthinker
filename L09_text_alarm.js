@@ -177,6 +177,8 @@ function mousePressed(){
 }
 
 function countdown(){
-    
+    if(countdown >0){
+        
+    }
 }
 
