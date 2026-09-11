@@ -24,7 +24,7 @@ function setup(){
 
 function draw(){
     background(colorPicker.value())
-    fi
+    FileList(colorPicke)
     rect(150,50,300,150,10);
     
     push();
