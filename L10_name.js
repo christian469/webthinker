@@ -20,7 +20,7 @@ function setup(){
 
     colorPicker = createColorPicker("yellow");
    colorPicker.position(300, height - 50) 
-    
+   colorPicker2
 
 }
 
