@@ -172,7 +172,8 @@ function draw(){
 
 function mousePressed(){
     countdown =5;
-    clearInterval(timer)
+    clearInterval(timer);
+    timer = setInterval
 }
 
 
