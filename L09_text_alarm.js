@@ -170,7 +170,9 @@ function draw(){
     text("click me tostart the timer", 100,300)
 }
 
-
+function mousePressed(){
+    
+}
 
 
 
