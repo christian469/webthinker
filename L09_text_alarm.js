@@ -180,7 +180,7 @@ function countdown(){
     if(countdown >0){
         countdown--;
     }else{
-        clearInterval
+        clearInterval(timer)
     }
 }
 
