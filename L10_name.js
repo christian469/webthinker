@@ -24,7 +24,7 @@ function setup(){
 
 function draw(){
     background(colorPicker.value())
-    rect((colorPicker.value),150,50,300,150,10);
+    rect(150,50,300,150,10);
     
     push();
     textSize(19);
