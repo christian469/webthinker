@@ -164,7 +164,7 @@ function setup(){
 function draw(){
     background(0);
     textSize(60);
-    Text(countdown, 200, 200);
+    Text(countdown,2010,200);
 
     textSize(18);
     text("click me tostart the timer", 100,300);
