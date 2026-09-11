@@ -110,12 +110,12 @@
 // }
 
 
-let csecond, cminute, chour;
-let ctime;
-let interval;
-let countdown;
+// let csecond, cminute, chour;
+// let ctime;
+// let interval;
+// let countdown;
 
-let alarm;
+// let alarm;
 
 // function preload(){
 //     alarm = loadSound('assets/Lose.mp3')
@@ -154,3 +154,10 @@ let alarm;
 //         alarm.play();
 //     }
 // }
+
+
+
+
+
+
+
