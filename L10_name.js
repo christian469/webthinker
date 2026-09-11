@@ -28,7 +28,7 @@ function setup(){
 
 function draw(){
     background(colorPicker.value())
-    fill(colorPicker2)
+    fill(rectcolorPicker2)
     rect(150,50,300,150,10);
     
     push();
