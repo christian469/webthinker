@@ -163,7 +163,8 @@ function setup(){
 }
 function draw(){
     background(0)
-    textSize()
+    textSize(60)
+    text
 }
 
 
