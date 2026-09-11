@@ -9,8 +9,6 @@ let colorPicker;
 
 function setup(){
     createCanvas(600,400)
-    // displayText = "Let Diddy sharpen ur pencil XD"
-
     inputName = createInput();
     inputName.position(300, height - 150);
     inputName.input(updateName);
