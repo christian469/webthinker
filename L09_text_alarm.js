@@ -171,6 +171,7 @@ function draw(){
 }
 
 function mousePressed(){
+    countdown =5;
     
 }
 
