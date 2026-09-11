@@ -5,6 +5,7 @@ let inputName;
 let inputAge;
 
 let colorPicker;
+let colorPicker2;
 
 
 function setup(){
