@@ -51,7 +51,6 @@ function draw(){
 }
 
 function buttonStoryClicked(){
-    // console.log("Tytus is GAY");
     // console.log(inputNoun.value());
     //  console.log(storyText);
 
