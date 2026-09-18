@@ -4,7 +4,7 @@ let storyText, storyTemplate;
 
 function setup(){
     createCanvas(600,600);
-    inputNoun = createInput("e.g. Tytus");
+    inputNoun = createInput("e.g. goodness");
     inputNoun.position(200, 100);
 
     inputVerb = createInput("e.g. swim");
