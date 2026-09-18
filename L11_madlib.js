@@ -3,7 +3,7 @@ let btnGenStory
 let storyText, storyTemplate;
 
 function setup(){
-    createCanvas(600,600);
+    createCanvas(700,600);
     inputNoun = createInput("e.g. goodness");
     inputNoun.position(200, 100);
 
