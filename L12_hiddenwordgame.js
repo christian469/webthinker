@@ -16,6 +16,5 @@ function draw(){
     background("lightgray");
 
     text("Guess the hidden word", 600, 550);
-    print 
 }
 
