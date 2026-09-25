@@ -45,8 +45,8 @@ function draw(){
     text("Enter a Noun:", 50, 100);
     text("Enter a Verb:", 50, 150);
     text("Enter a Adjective:", 50, 200);
-    text("Adverb:", 50, 250);
-    text("Place:", 50, 300);
+    text("Enter a Adverb:", 50, 250);
+    text("Enter a Place:", 50, 300);
     text(storyText, 50, 450);
     pop();
 }
