@@ -1,10 +1,10 @@
 // write your codes here
 let btnGenStory
-let guess
+let inputguess
 function setup(){
     createCanvas(800,700);
     background("lightgray");
-    guess= createInput("guess")
+    inputguess= createInput("guess")
     btnGenStory = createButton("Guess");
     btnGenStory.position(200, 350);
     btnGenStory.mousePressed(buttonStoryClicked)
