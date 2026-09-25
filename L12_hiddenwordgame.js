@@ -5,10 +5,10 @@ function setup(){
     createCanvas(800,700);
     background("lightgray");
     inputguess= createInput("guess");
-    inputguess.position(200, 320);
+    inputguess.position(200, 350);
 
     btnGenStory = createButton("Guess");
-    btnGenStory.position(400, 400);
+    btnGenStory.position(400, 350);
     btnGenStory.mousePressed(buttonStoryClicked)
 }
 
