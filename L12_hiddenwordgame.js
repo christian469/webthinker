@@ -1,5 +1,5 @@
 // write your codes here
-let btnGenStory
+let guessing
 let inputguess
 function setup(){
     createCanvas(800,700);
