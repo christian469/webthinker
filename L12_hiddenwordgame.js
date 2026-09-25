@@ -1,4 +1,6 @@
 // write your codes here
+let btnGenStory
+
 function setup(){
     createCanvas(800,700);
     background("lightgray");
