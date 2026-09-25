@@ -1,6 +1,6 @@
 // write your codes here
 let btnGenStory
-let
+let guess
 function setup(){
     createCanvas(800,700);
     background("lightgray");
