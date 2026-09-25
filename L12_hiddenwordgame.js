@@ -4,7 +4,7 @@ let guess
 function setup(){
     createCanvas(800,700);
     background("lightgray");
-    guess= createInput
+    guess= createInput("guess")
     btnGenStory = createButton("Guess");
     btnGenStory.position(200, 350);
     btnGenStory.mousePressed(buttonStoryClicked)
