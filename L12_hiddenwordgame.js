@@ -18,6 +18,6 @@ function draw(){
     textSize(50);
     text("Guess the hidden word", width/2, height/2-160);
     text("Attempts:" + attempts, width/2, height/2-100);
-    text("")
+    text("Hints:")
 }
 
