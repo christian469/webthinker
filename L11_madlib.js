@@ -43,8 +43,8 @@ function draw(){
     textAlign(LEFT, TOP);
     textFont("cosmic san")
     text("Enter a Noun:", 50, 100);
-    text("Verb:", 50, 150);
-    text("Adjective:", 50, 200);
+    text("Enter a Verb:", 50, 150);
+    text("Enter a Adjective:", 50, 200);
     text("Adverb:", 50, 250);
     text("Place:", 50, 300);
     text(storyText, 50, 450);
