@@ -14,7 +14,7 @@ function setup(){
 
 function draw(){
     background("lightgray");
-
+    textAlign
     text("Guess the hidden word", 600, 550);
 }
 
