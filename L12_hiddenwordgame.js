@@ -11,6 +11,10 @@ function setup(){
     guessing = createButton("Guess");
     guessing.position(400, 350);
     guessing.mousePressed(buttonStoryClicked)
+    
+
+
+
 }
 
 function draw(){
