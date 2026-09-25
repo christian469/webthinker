@@ -8,7 +8,7 @@ function setup(){
     inputguess.position(200, 320);
 
     btnGenStory = createButton("Guess");
-    btnGenStory.position(400, 340);
+    btnGenStory.position(400, 400);
     btnGenStory.mousePressed(buttonStoryClicked)
 }
 
