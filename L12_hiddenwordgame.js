@@ -14,7 +14,7 @@ function setup(){
 
 function draw(){
     background("lightgray");
-    textAlign(CustomElementRegistry, CENTER)
+    textAlign(CENTER, CENTER)
     text("Guess the hidden word", 600, 550);
 }
 
