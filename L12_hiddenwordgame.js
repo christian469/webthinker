@@ -15,6 +15,6 @@ function setup(){
 function draw(){
     background("lightgray");
 
-    text("Guess the ")
+    text("Guess the hidden word", )
 }
 
