@@ -10,6 +10,10 @@ let hiddenWord;
 function setup(){
     // createCanvas(800,700);
     // background("lightgray");
+    MY 
+
+
+
     inputguess= createInput("guess");
     inputguess.position(220, 350);
 
