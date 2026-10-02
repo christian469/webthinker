@@ -63,5 +63,5 @@ function checkGuess() {
 
 
 function getCorrectLetters(inputValue, randomWord) {
-
+    
 }
