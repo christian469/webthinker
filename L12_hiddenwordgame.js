@@ -45,3 +45,7 @@ function generateHint(aWord) {
     print("the partial is " + partial);
     return aWord[0] + partial;
 }
+
+
+fun
+ 
