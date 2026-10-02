@@ -8,6 +8,7 @@ let buttonStoryClicked
 let myWordList;
 let hiddenWord;
 
+
 function setup(){
     createCanvas(800,700);
     // background("lightgray");
@@ -62,5 +63,5 @@ function checkGuess() {
 
 
 function getCorrectLetters(inputValue, randomWord) {
-    
+
 }
