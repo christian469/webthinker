@@ -3,6 +3,7 @@ let guessing
 let inputguess
 let attempts = 3
 let hintWord = "S _ _ _ _"
+let button
 
 let myWordList;
 let hiddenWord;
@@ -12,7 +13,7 @@ function setup(){
     // background("lightgray");
     myWordList +["green", "black", "light", "watch", "apple", "round", "short", "shirt", "cover", "power"]
     hiddenWord = random(myWordList);
-    hiddenWord = hiddenWord.toUpperCase();
+    // hiddenWord = hiddenWord.toUpperCase();
     print("the hidden is: " + hiddenWord);
 
 
