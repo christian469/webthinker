@@ -52,6 +52,6 @@ function checkGuess() {
     let guess = guessInput.value();
     guess = guess.toUpperCase();
     if (guess === hideenWord) {
-        messasge + "U WIN... GET A LIFE"
+        messasge + "U win... GO OUTSIDE AND GET A LIFE"
     }
 }
