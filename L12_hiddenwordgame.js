@@ -2,7 +2,7 @@
 let guessing
 let inputguess
 let attempts = 3
-let hintWord = ""
+let hintWord = "S _ _ _ "
 function setup(){
     createCanvas(800,700);
     background("lightgray");
