@@ -50,5 +50,6 @@ function generateHint(aWord) {
 function checkGuess() {
     print("hello");
     let guess = guessInput.value();
-    guess = guess.
+    guess = guess.toUpperCase();
+    
 }
