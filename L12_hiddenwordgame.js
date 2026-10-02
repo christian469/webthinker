@@ -51,5 +51,7 @@ function checkGuess() {
     print("hello");
     let guess = guessInput.value();
     guess = guess.toUpperCase();
-    
+    if (guess === hideenWord) {
+        
+    }
 }
