@@ -59,3 +59,8 @@ function checkGuess() {
         attempts++; 
     }
 }
+
+
+function getCorrectLetters(inputValue, randomWord) {
+    
+}
