@@ -38,4 +38,6 @@ function draw(){
 }
 
 
-function generateHint(aWord)
+function generateHint(aWord) {
+    return aWord
+}
