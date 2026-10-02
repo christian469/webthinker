@@ -39,5 +39,5 @@ function draw(){
 
 
 function generateHint(aWord) {
-    return aWord
+    return aWord[0];
 }
