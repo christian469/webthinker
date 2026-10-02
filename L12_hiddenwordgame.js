@@ -7,7 +7,7 @@ let buttonStoryClicked
 
 let myWordList;
 let hiddenWord;
-
+let ultraextrahint
 
 function setup(){
     createCanvas(800,700);
