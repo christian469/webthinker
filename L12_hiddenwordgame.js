@@ -13,7 +13,7 @@ function setup(){
     myWordList +["green", "black", "light", "watch", "apple", "round", "short", "shirt", "cover", "power"]
     hiddenWord = random(myWordList);
     hiddenWord = hiddenWord.toUpperCase();
-    print 
+    print("the hidden ")
 
 
     inputguess= createInput("guess");
