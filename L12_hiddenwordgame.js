@@ -56,6 +56,6 @@ function checkGuess() {
         print(message);
     }
     else {
-        
+        attempts
     }
 }
