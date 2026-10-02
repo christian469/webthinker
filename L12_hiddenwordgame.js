@@ -47,4 +47,6 @@ function generateHint(aWord) {
 }
 
 
-function checkGuess()
+function checkGuess() {
+    print('hello')
+}
