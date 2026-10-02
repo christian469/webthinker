@@ -49,5 +49,5 @@ function generateHint(aWord) {
 
 function checkGuess() {
     print("hello");
-    let guess = guess.i
+    let guess = inputguess
 }
