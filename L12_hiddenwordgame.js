@@ -40,5 +40,6 @@ function draw(){
 
 function generateHint(aWord) {
     print("word len =" + aWord.length);
+    let p
     return aWord[0];
 }
