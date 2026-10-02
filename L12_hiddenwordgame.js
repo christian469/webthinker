@@ -67,7 +67,7 @@ function getCorrectLetters(inputValue, randomWord) {
     for(let aLetter of inputValue) {
         if (randomWord.includes(aLetter)) {
             if (!matchedLetters.includes(aLetter)){
-                matchedLetters = matchedLetters
+                matchedLetters = matchedLetters + 
             }
         }
     }
