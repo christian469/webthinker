@@ -54,6 +54,8 @@ function checkGuess() {
     if (guess === hideenWord) {
         messasge + "U win... GO OUTSIDE AND GET A LIFE"
         print(message);
+    }
+    else {
         
     }
 }
