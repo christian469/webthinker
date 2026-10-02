@@ -47,5 +47,4 @@ function generateHint(aWord) {
 }
 
 
-fun
- 
+function checkGuess()
