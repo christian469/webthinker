@@ -10,7 +10,7 @@ let hiddenWord;
 function setup(){
     // createCanvas(800,700);
     // background("lightgray");
-    myWordList +["green, "]
+    myWordList +["green, black, light, "]
 
 
 
