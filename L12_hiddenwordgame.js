@@ -39,6 +39,6 @@ function draw(){
 
 
 function generateHint(aWord) {
-    print
+    print("word len ")
     return aWord[0];
 }
