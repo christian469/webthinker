@@ -3,6 +3,7 @@ let guessing
 let inputguess
 let attempts = 3
 let hintWord = "S _ _ _ _"
+let myWordList;
 let 
 function setup(){
     createCanvas(800,700);
