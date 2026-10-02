@@ -1,7 +1,8 @@
 // write your codes here
 let guessing
 let inputguess
-attempts = 3
+let attempts = 3
+
 function setup(){
     createCanvas(800,700);
     background("lightgray");
