@@ -8,8 +8,8 @@ let myWordList;
 let hiddenWord;
 
 function setup(){
-    createCanvas(800,700);
-    background("lightgray");
+    // createCanvas(800,700);
+    // background("lightgray");
     inputguess= createInput("guess");
     inputguess.position(220, 350);
 
