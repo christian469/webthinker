@@ -40,6 +40,6 @@ function draw(){
 
 function generateHint(aWord) {
     print("word len =" + aWord.length);
-    let p
+    let partial = "_"
     return aWord[0];
 }
