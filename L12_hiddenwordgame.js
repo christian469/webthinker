@@ -11,7 +11,8 @@ function setup(){
     // createCanvas(800,700);
     // background("lightgray");
     myWordList +["green", "black", "light", "watch", "apple", "round", "short", "shirt", "cover", "power"]
-    hiddenWord = random
+    hiddenWord = random(myWordList);
+    hiddenWord
 
 
     inputguess= createInput("guess");
