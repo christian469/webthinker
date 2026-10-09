@@ -4,7 +4,6 @@ let attempts = 3
 let buttonStoryClicked
 let hiddenWord;
 let myWordList;
-let hiddenWord;
 const WORDS = [
     "intentions","nationality", "watermelon","cabybara", "notebook","honeymelon",
     "bumblebee", "chimpanzee","hippopotamus" 
