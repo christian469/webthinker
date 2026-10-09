@@ -21,7 +21,7 @@ function setup() {
 
     submitButton = createButton("Submit");
     submitButton.postion(width/2+160, height/2-50);
-    submitButton.style
+    submitButton.style()
 
 }
 
