@@ -1,9 +1,3 @@
-let guessing
-let inputguess
-let attempts = 3
-let buttonStoryClicked
-let hiddenWord;
-let myWordList;
 let hiddenWord;
 const WORDS = [
     "intentions","nationality", "watermelon","cabybara", "notebook","honeymelon",
@@ -12,6 +6,9 @@ const WORDS = [
 function setup() {
     createCanvas(1000,700);
     background("skyblue");
+
+    rescrambleButton = createButton("rescramble");
+    rescrambleButton.postion()
 }
 
 function draw() {
