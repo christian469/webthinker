@@ -1,2 +1,4 @@
 const WORDS = [];
-func
+function setup() {
+    cr
+}
