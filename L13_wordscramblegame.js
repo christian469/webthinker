@@ -12,7 +12,8 @@ function setup() {
     rescrambleButton.style("font-size", "20px");
     rescrambleButton.size(135.35)
 
-    guessInput = createInput
+    guessInput = createInput();
+    guessInput = 
 }
 
 function draw() {
