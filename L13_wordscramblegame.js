@@ -32,7 +32,7 @@ function shuffleWord(){
 }
 function pickNewWord(){
     hiddenWord = random(WORDS);
-    hiddenWord
+    hiddenWord = hiddenWord.toUpperCase
 }
 
 
