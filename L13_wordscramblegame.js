@@ -1,3 +1,7 @@
+let score
+
+
+
 let hiddenWord;
 const WORDS = [
     "intentions","nationality", "watermelon","cabybara", "notebook","honeymelon",
