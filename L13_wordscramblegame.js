@@ -27,7 +27,9 @@ function setup() {
     hiddenWord = pickNewWord();
     print("THE SECRET IS " + hiddenWord);
 }
-function shuffleWord()
+function shuffleWord(){
+    return""
+}
 
 
 function draw() {
