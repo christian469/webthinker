@@ -22,6 +22,7 @@ function setup() {
     submitButton = createButton("")
 }
 
+
 function draw() {
     fill("black");
     textSize(34);
