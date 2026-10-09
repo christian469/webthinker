@@ -24,7 +24,8 @@ function setup() {
     submitButton.style("font-size", "20px");
     submitButton.size(80,35);
 
-    hiddenWord = pickNew
+    hiddenWord = pickNewWord();
+    
 }
 
 
