@@ -1,7 +1,7 @@
 let score = 0
 let Streak = 0
 let submitButton
-
+let rescrambleButton
 let hiddenWord;
 const WORDS = [
     "intentions","nationality", "watermelon","cabybara", "notebook","honeymelon",
