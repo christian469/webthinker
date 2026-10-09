@@ -20,5 +20,5 @@ function draw() {
 
     textSize(28);
     text("score: 0", width/2, height/2+80);
-    text("Streak")
+    text("Streak: 0 (")
 }
