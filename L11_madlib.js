@@ -2,7 +2,8 @@
 let inputNoun, inputVerb, inputAdjective, inputAdverb, inputPlace;
 let btnGenStory
 let storyText, storyTemplate;
-
+let myWordList;
+let hiddenWord;
 function setup(){
     createCanvas(700,600);
     inputNoun = createInput("e.g. goodness");
