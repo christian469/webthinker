@@ -11,6 +11,8 @@ function setup() {
     rescrambleButton.postion(270, height/2-150);
     rescrambleButton.style("font-size", "20px");
     rescrambleButton.size(135.35)
+
+    
 }
 
 function draw() {
