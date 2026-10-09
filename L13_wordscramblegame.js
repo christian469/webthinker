@@ -34,7 +34,7 @@ function pickNewWord(){
     hiddenWord = random(WORDS);
     hiddenWord = hiddenWord.toUpperCase();
     messedup = shuffleWord(hiddenWord);
-    return hiddenWord
+    return hiddenWord;
 }
 
 
