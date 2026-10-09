@@ -15,7 +15,7 @@ function setup() {
     guessInput = createInput();
     guessInput.postion(430, height)
 
-    submitButton
+    submitButton = createButton("")
 }
 
 function draw() {
