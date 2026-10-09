@@ -31,7 +31,8 @@ function shuffleWord(someWord) {
     let arrChars = someWord.split("");
     for (let i = arraySome.length-1; i > 0; i--) {
         let j = floor(random(i-1));
-        let memory = arraySome
+        let memory = arraySome[j];
+        let arraySome
     }
     return "";
 }
