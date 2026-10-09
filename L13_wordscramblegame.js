@@ -10,7 +10,16 @@ const WORDS = [
     ];
 function setup() {
     createCanvas(1000,700);
-    background("skyblue");
+    background("skyblue");print("the hidden is: " + hiddenWord);
+
+
+    inputguess= createInput("guess");
+    inputguess.position(220, 350);
+
+    guessing = createButton("Guess");
+    guessing.position(400, 350);
+    guessing.mousePressed(buttonStoryClicked)
+    
 }
 
 function draw() {
