@@ -25,8 +25,9 @@ function setup() {
     submitButton.size(80,35);
 
     hiddenWord = pickNewWord();
-    print("THE SECRET IS " + hiddenWord)
+    print("THE SECRET IS " + hiddenWord);
 }
+function shuffleWord()
 
 
 function draw() {
