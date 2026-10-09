@@ -35,7 +35,7 @@ function shuffleWord(someWord) {
         arraySome[j] = arraySome[i];
         arraySome = memory;
     }
-    return arraySome.join("";
+    return arraySome.join("");
 }
 function pickNewWord(){
     hiddenWord = random(WORDS);
