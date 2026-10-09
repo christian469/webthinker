@@ -1,4 +1,5 @@
 const WORDS = [];
 function setup() {
-    cr
+    createCanvas(400,400)
+    
 }
