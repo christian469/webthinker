@@ -10,7 +10,7 @@ const WORDS = [
     ];
 function setup() {
     createCanvas(1000,700);
-    background("skyblue");
+    // background("skyblue");
     print("the hidden is: " + hiddenWord);
 
 
