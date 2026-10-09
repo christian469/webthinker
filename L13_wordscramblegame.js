@@ -8,7 +8,7 @@ function setup() {
     background("skyblue");
 
     rescrambleButton = createButton("rescramble");
-    rescrambleButton.postion()
+    rescrambleButton.postion(270, )
 }
 
 function draw() {
