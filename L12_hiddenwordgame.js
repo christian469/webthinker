@@ -11,6 +11,7 @@ let ultraExtraHint = ""
 
 function setup(){
     createCanvas(800,700);
+
     myWordList +["green", "black", "light", "watch", "apple", "round", "short", "shirt", "cover", "power"]
     hiddenWord = random(myWordList);
     // hiddenWord = hiddenWord.toUpperCase();
