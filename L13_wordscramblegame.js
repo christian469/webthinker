@@ -50,7 +50,7 @@ function draw() {
     textSize(34);
     textAlign(CENTER, CENTER);
     text("word scramble game",   width/2, 75);
-    text("Random word: Notebook", width/2, 205);
+    text("Random word: +", width/2, 205);
 
     textSize(28);
     text("score: 0", width/2, height/2+80);
