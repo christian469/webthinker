@@ -15,5 +15,5 @@ function draw() {
     fill("black");
     textSize(34);
     textAlign(CENTER, CENTER);
-    text
+    text("word scramble game")
 }
