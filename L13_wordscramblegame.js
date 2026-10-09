@@ -12,5 +12,6 @@ function setup() {
 }
 
 function draw() {
-    fill
+    fill("black");
+    
 }
