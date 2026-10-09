@@ -25,7 +25,7 @@ function setup() {
     submitButton.size(80,35);
 
     hiddenWord = pickNewWord();
-    print()
+    print("THE SECRET IS ")
 }
 
 
