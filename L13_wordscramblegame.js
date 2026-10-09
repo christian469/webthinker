@@ -33,7 +33,7 @@ function shuffleWord(someWord) {
         let j = floor(random(i-1));
         let memory = arraySome[j];
         arraySome[j] = arraySome[i];
-        
+        arraySome = memory
     }
     return "";
 }
