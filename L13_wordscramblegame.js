@@ -20,7 +20,7 @@ function setup() {
     guessInput.postion(430, height)
 
     submitButton = createButton("Submit");
-    submitButton.postion(width/2+)
+    submitButton.postion(width/2+160, height)
 }
 
 
