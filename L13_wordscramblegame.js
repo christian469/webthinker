@@ -9,7 +9,7 @@ function setup() {
 
     rescrambleButton = createButton("rescramble");
     rescrambleButton.postion(270, height/2-150);
-    rescrambleButton
+    rescrambleButton.style("font")
 }
 
 function draw() {
