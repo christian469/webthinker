@@ -1,3 +1,8 @@
+let guessing
+let inputguess
+let attempts = 3
+let hintWord = "S _ _ _ _"
+let buttonStoryClicked
 let hiddenWord;
 const WORDS = [
     "intentions","nationality", "watermelon","cabybara", "notebook","honeymelon",
