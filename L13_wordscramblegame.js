@@ -22,7 +22,7 @@ function setup() {
     submitButton = createButton("Submit");
     submitButton.postion(width/2+160, height/2-50);
     submitButton.style("font-size", "20px");
-    submitButton.size
+    submitButton.size(80,35);
 
 }
 
