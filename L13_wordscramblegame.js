@@ -19,6 +19,6 @@ function draw() {
     text("Random word: Notebook", width/2, 205);
 
     textSize(28);
-    text("score: 0");
+    text("score: 0", width/2, height/2+80);
     
 }
