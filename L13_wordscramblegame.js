@@ -28,6 +28,7 @@ function setup() {
     print("THE SECRET IS " + hiddenWord);
 }
 function shuffleWord(someWord) {
+    let arr
     return "";
 }
 function pickNewWord(){
