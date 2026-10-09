@@ -16,5 +16,5 @@ function draw() {
     textSize(34);
     textAlign(CENTER, CENTER);
     text("word scramble game",   width/2, 75);
-    
+    text("Random word: ")
 }
