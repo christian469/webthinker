@@ -30,6 +30,9 @@ function setup() {
 function shuffleWord(){
     return "";
 }
+function pickNewWord(){
+    
+}
 
 
 function draw() {
