@@ -1,5 +1,6 @@
 const WORDS = [
-    "intentions","nationality", "watermelon","cabybara", "notebook","honeymelon
+    "intentions","nationality", "watermelon","cabybara", "notebook","honeymelon",
+    
     ];
 function setup() {
     createCanvas(400,400);
