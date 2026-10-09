@@ -28,7 +28,7 @@ function setup() {
     print("THE SECRET IS " + hiddenWord);
 }
 function shuffleWord(someWord) {
-    let arrChars = someWord.split()
+    let arrChars = someWord.split("")
     return "";
 }
 function pickNewWord(){
