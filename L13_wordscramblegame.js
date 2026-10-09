@@ -1,5 +1,5 @@
-let score
-
+let score = 0
+let Streak = 
 
 
 let hiddenWord;
