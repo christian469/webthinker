@@ -14,5 +14,6 @@ function setup() {
 function draw() {
     fill("black");
     textSize(34);
-    textAlign(CENTER)
+    textAlign(CENTER, CENTER);
+    text
 }
