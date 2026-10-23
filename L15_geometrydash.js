@@ -12,5 +12,5 @@ function draw(){
     fill("white");
     textSize(16);
     textAlign(CENTER,CENTER);
-    text("PRESS SPACE TO JUMB!!!! ARE U DUMB OR WHAT",)
+    text("PRESS SPACE TO JUMB!!!! ARE U DUMB OR WHAT", width/2, 50)
 }
