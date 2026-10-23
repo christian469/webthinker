@@ -6,5 +6,5 @@ function setup(){
 function draw(){
     background("black");
     fill("lime");
-    rect(50,height-50,50,50);
+    rect(50,height-75,50,50);
 }
