@@ -22,7 +22,7 @@ function draw(){
         isGrounded = true;
         velocity = 0;
     } else {
-        isGrounded = flase
+        isGrounded = false;
     }
 
     fill("white");
