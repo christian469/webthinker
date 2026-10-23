@@ -15,7 +15,7 @@ function draw(){
     rect(50,height-75,50,50);
      
     velocity += 0.8;
-    playerY += velocity
+    playerY += velocity;
 
     fill("white");
     textSize(16);
