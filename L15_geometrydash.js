@@ -18,7 +18,8 @@ function draw(){
     playerY += velocity;
 
     if (playerY >= height - playerSize){
-        playerY = height
+        playerY = height - playerSize;
+        isGrounded
     }
 
     fill("white");
