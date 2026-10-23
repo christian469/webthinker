@@ -10,5 +10,6 @@ function draw(){
 
 
     fill("white");
-    text
+    textSize(16);
+    
 }
