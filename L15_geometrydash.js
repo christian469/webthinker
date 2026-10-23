@@ -43,6 +43,8 @@ function draw(){
     for (let count=0; count<3; count++){
         spikesX[count] -= spikeSpeed;
 
+        if (spike)
+
         triangle(
             spikesX[count], height,
             spikesX[count] + spikeWidth/2, height - spikeHeight,
