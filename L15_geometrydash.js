@@ -12,6 +12,10 @@ function setup(){
     createCanvas(800,600);
     background("black");
     playerY = height-75
+
+    for (let count=0; count<3; count++) {
+        
+    }
 }
 
 function draw(){
