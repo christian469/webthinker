@@ -44,7 +44,8 @@ function draw(){
         spikesX[count] -= spikeSpeed;
 
         triangle(
-            pt1x, pt1y
+            pt1x, pt1y,
+            p
         )
     }
 }
