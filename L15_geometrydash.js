@@ -18,7 +18,7 @@ function draw(){
     playerY += velocity;
 
     if(playerY >= height - playerSize){
-        pla
+        playerY
     }
 
     fill("white");
