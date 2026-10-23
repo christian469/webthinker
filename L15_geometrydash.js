@@ -14,7 +14,7 @@ function setup(){
     playerY = height-75
 
     for (let count=0; count<3; count++) {
-        spikesX.push(width + i * 300);
+        spikesX.push(width + count * 300);
     }
 }
 
