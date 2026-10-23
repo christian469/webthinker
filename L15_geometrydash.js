@@ -39,7 +39,7 @@ function draw(){
     textAlign(CENTER,CENTER);
     text("PRESS SPACE TO JUMB!!!! ARE U DUMB OR WHAT", width/2, 50);
 
-    fill("red");
+    fill("gold");
     for (let count=0; count<3; count++){
         spikesX[count] -= spikeSpeed;
 
