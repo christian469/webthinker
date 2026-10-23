@@ -27,7 +27,8 @@ function draw(){
 
     if (gameOver) {
         fill("red");
-        textSize
+        textSize(44);
+        textAlign
     }
     rect( 50,playerY, 50,50);
      
