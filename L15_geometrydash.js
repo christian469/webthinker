@@ -1,4 +1,4 @@
-let playerX;
+let playerX = 100;
 let playerY;
 let playerSize;
 let velocity = 0;
@@ -6,7 +6,7 @@ let isGrounded = false;
 function setup(){
     createCanvas(800,600);
     background("black");
-    playerY = height
+    playerY = height-75
 }
 
 function draw(){
