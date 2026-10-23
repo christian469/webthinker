@@ -53,6 +53,6 @@ function draw(){
 
 function keyPressed() {
     if (keyCode === 32 && isGrounded) {
-        velocity = -24;
+        velocity = -15;
     }
 }
