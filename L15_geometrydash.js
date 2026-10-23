@@ -63,6 +63,8 @@ function draw(){
             spikesX[count] + spikeWidth/2, height - spikeHeight,
             spikesX[count] + spikeWidth, height
         )
+
+        //col
     }
 }
 
