@@ -30,3 +30,9 @@ function draw(){
     textAlign(CENTER,CENTER);
     text("PRESS SPACE TO JUMB!!!! ARE U DUMB OR WHAT", width/2, 50);
 }
+
+function keyPressed() {
+    if (keyCode === 32 && isGrounded) {
+        velocity = -12;
+    }
+}
