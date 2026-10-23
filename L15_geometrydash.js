@@ -44,7 +44,7 @@ function draw(){
         spikesX[count] -= spikeSpeed;
 
         if ( spikesX[cohnt < 0-spikeWidth] ) {
-            spikesX[count] = width + random(100, 300)
+            spikesX[count] = width + random(100, 300);
         }
 
         triangle(
