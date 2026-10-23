@@ -6,5 +6,5 @@ function setup(){
 function draw(){
     background("black");
     fill("lime");
-    Reflect(width/2,height/2,50,50);
+    rect(width/2,height/2,50,50);
 }
