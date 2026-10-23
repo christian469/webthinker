@@ -25,8 +25,9 @@ function draw(){
     fill("gray");
     
 
-    iv (gameOver) {
-        fill("red")
+    if (gameOver) {
+        fill("red");
+        textSize
     }
     rect( 50,playerY, 50,50);
      
