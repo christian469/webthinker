@@ -14,7 +14,8 @@ function draw(){
     fill("lime");
     rect(50,height-75,50,50);
      
-    velocity+=
+    velocity+= 0.8;
+    playerY
 
     fill("white");
     textSize(16);
