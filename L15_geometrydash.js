@@ -29,7 +29,7 @@ function draw(){
         fill("red");
         textSize(44);
         textAlign(CENTER,CENTER);
-        text("")
+        text("GAME OVER! U SUCK AT THIS")
     }
     rect( 50,playerY, 50,50);
      
