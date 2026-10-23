@@ -23,7 +23,7 @@ function draw(){
     fill("gray");
     rect( 50,playerY, 50,50);
      
-    velocity += 0.8;
+    velocity += 0.9;
     playerY += velocity;
 
     if (playerY >= height - playerSize){
