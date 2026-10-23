@@ -6,5 +6,5 @@ function setup(){
 function draw(){
     background("black");
     fill("lime");
-    Reflect(width)
+    Reflect(width/2,height/2)
 }
