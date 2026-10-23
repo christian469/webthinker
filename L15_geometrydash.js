@@ -20,7 +20,7 @@ function setup(){
 
 function draw(){
     background("black");
-    fill("lime");
+    fill("Royal Purple");
     rect( 50,playerY, 50,50);
      
     velocity += 0.5;
