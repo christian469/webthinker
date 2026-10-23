@@ -30,6 +30,7 @@ function draw(){
         textSize(44);
         textAlign(CENTER,CENTER);
         text("GAME OVER! U SUCK AT THIS!!!", width/2, height/2);
+        return;
     }
     rect( 50,playerY, 50,50);
      
