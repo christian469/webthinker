@@ -12,5 +12,5 @@ function draw(){
     fill("white");
     textSize(16);
     textAlign(CENTER,CENTER);
-    text("press")
+    text("PRESS SPACE TO JUMB ")
 }
