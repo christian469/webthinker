@@ -67,7 +67,7 @@ function draw(){
         //col
         if ( A &&
              B &&
-             player
+             playerY + playerSize > height
         ) {
 
         }
