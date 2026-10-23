@@ -3,6 +3,7 @@ let playerY;
 let playerSize = 50;
 let velocity = 0;
 let isGrounded = false;
+let
 function setup(){
     createCanvas(800,600);
     background("black");
