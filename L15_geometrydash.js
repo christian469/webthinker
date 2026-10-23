@@ -1,6 +1,6 @@
 let playerX = 100;
 let playerY;
-let playerSize;
+let playerSize = 50;
 let velocity = 0;
 let isGrounded = false;
 function setup(){
