@@ -6,7 +6,7 @@ let isGrounded = false;
 function setup(){
     createCanvas(800,600);
     background("black");
-    playerY = height-10
+    playerY = height-75
 }
 
 function draw(){
