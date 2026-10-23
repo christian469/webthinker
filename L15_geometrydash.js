@@ -2,7 +2,7 @@ let playerX;
 let playerY;
 let playerSize;
 let velocity = 0;
-let isGrounded = flase
+let isGrounded = false;
 function setup(){
     createCanvas(800,600);
     background("black");
