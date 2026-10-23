@@ -7,4 +7,7 @@ function draw(){
     background("black");
     fill("lime");
     rect(50,height-75,50,50);
+
+
+    fill
 }
