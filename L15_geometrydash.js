@@ -9,8 +9,7 @@ let spikeWidth = 20;
 let spikeHeight = 30;
 let spikeSpeed = 5;
 
-let gameover;
-
+let gameOver = false
 function setup(){
     createCanvas(800,600);
     background("black");
