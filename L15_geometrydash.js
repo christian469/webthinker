@@ -66,7 +66,7 @@ function draw(){
 
         //col
         if ( playerX + playerSize > spikesX[count] &&
-             playerX &&
+             playerX < spikesX[co] &&
              playerY + playerSize > height - spikeHeight
         ) {
             gameOver = true;
