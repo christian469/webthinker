@@ -17,6 +17,8 @@ function draw(){
     velocity += 0.8;
     playerY += velocity;
 
+    if(playerY )
+
     fill("white");
     textSize(16);
     textAlign(CENTER,CENTER);
