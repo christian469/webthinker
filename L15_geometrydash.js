@@ -24,6 +24,10 @@ function draw(){
     background("black");
     fill("gray");
     
+
+    iv (gameOver) {
+        fill("red")
+    }
     rect( 50,playerY, 50,50);
      
     velocity += 0.9;
