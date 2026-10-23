@@ -1,6 +1,7 @@
 let playerX;
 let playerY;
-let 
+let playerSize;
+let velocity
 function setup(){
     createCanvas(800,600);
     background("black");
