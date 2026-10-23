@@ -11,5 +11,6 @@ function draw(){
 
     fill("white");
     textSize(16);
-    textAlign(CustomElementRegistry,CENTER)
+    textAlign(CENTER,CENTER);
+    text("press")
 }
