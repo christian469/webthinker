@@ -1,4 +1,8 @@
 function setup(){
     createCavas(800, 600);
-    background("black")
+    background("black");
+}
+
+function draw(){
+
 }
