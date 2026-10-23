@@ -65,7 +65,7 @@ function draw(){
         )
 
         //col
-        if ( A &&
+        if ( playerX + playerSize > spikesX[count] &&
              B &&
              playerY + playerSize > height - spikeHeight
         ) {
