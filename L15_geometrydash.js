@@ -69,7 +69,7 @@ function draw(){
              B &&
              playerY + playerSize > height - spikeHeight
         ) {
-
+            gameOver = true
         }
     }
 }
