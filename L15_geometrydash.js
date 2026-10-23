@@ -1,3 +1,4 @@
 function setup(){
-    createCavas()
+    createCavas(800, 600);
+    back
 }
