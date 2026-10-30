@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#07121c">
+    <title>Bio-Outbreak: Containment Breach</title>
+    <style>
+      html, body {
+        margin: 0;
+        min-height: 100%;
+        background: #07121c;
+        color: #e1f3ef;
+        font-family: Arial, sans-serif;
+      }
+      body {
+        display: grid;
+        place-items: center;
+        padding: 18px;
+        box-sizing: border-box;
+      }
+      main {
+        width: min(100%, 960px);
+      }
+      canvas {
+        display: block;
+        width: 100% !important;
+        height: auto !important;
+        border: 1px solid #26424d;
+        border-radius: 8px;
+      }
+      .back-link {
+        display: inline-block;
+        margin: 0 0 12px;
+        color: #78e8d0;
+      }
+      .noscript {
+        color: #ffb6a8;
+      }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/p5.min.js"></script>
+    <script src="https://p5play.org/v3/planck.min.js"></script>
+    <script src="https://p5play.org/v3/p5play.js"></script>
+  </head>
+  <body>
+    <main>
+      <a class="back-link" href="index.html">← Back to homepage</a>
+      <noscript><p class="noscript">JavaScript is required to play this game.</p></noscript>
+    </main>
+    <script src="bio-outbreak.js"></script>
+  </body>
+</html>
