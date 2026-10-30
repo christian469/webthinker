@@ -32,13 +32,13 @@ let reloadTimer = 0;
 let gamepadStatus = "Connect a controller for gamepad controls";
 let gamepadAimAngle = -Math.PI / 2;
 let gamepadAimActive = false;
-let pointerAimAngle = 0;
 let waveAnnouncement = "";
 let waveAnnouncementTimer = 0;
 let shopButtons = [];
 
 function setup() {
   new Canvas(GAME_WIDTH, GAME_HEIGHT);
+  document.querySelector("main").appendChild(document.querySelector("canvas"));
   world.gravity.y = 0;
   textFont("Arial");
   textAlign(CENTER, CENTER);
@@ -139,7 +139,7 @@ function drawTrap() {
 }
 
 function drawExtraction() {
-  const pulse = 3 + sin(frameCount * 0.08) * 3;
+  const pulse = 3 + Math.sin(frameCount * 0.08) * 3;
   noFill();
   stroke("#69ffcb");
   strokeWeight(2);
@@ -176,7 +176,7 @@ function drawTurrets() {
     circle(turret.x, turret.y, 9);
     stroke("#67d8ee");
     strokeWeight(3);
-    line(turret.x, turret.y, turret.x + cos(turret.angle) * 19, turret.y + sin(turret.angle) * 19);
+    line(turret.x, turret.y, turret.x + Math.cos(turret.angle) * 19, turret.y + Math.sin(turret.angle) * 19);
     noStroke();
   }
 }
@@ -193,8 +193,8 @@ function drawReticle() {
   let aimX = mouseX;
   let aimY = mouseY;
   if (gamepadAimActive) {
-    aimX = playerSprite.x + cos(gamepadAimAngle) * 90;
-    aimY = playerSprite.y + sin(gamepadAimAngle) * 90;
+    aimX = playerSprite.x + Math.cos(gamepadAimAngle) * 90;
+    aimY = playerSprite.y + Math.sin(gamepadAimAngle) * 90;
   }
   noFill();
   stroke("#d4f4ef");
@@ -301,10 +301,10 @@ function fireWeapon(fromTurret = false, turret = null) {
   const bulletSpeed = fromTurret ? 8 : 10;
   const bulletDamage = fromTurret ? 1 : player.damage;
   bullets.push({
-    x: sourceX + cos(angle) * 18,
-    y: sourceY + sin(angle) * 18,
-    velocityX: cos(angle) * bulletSpeed,
-    velocityY: sin(angle) * bulletSpeed,
+    x: sourceX + Math.cos(angle) * 18,
+    y: sourceY + Math.sin(angle) * 18,
+    velocityX: Math.cos(angle) * bulletSpeed,
+    velocityY: Math.sin(angle) * bulletSpeed,
     damage: bulletDamage,
     life: 75,
     fromTurret
@@ -660,6 +660,7 @@ function endGame(victory) {
 }
 
 function drawTitleScreen() {
+  updateGamepadStatus();
   fill("#102b38");
   rect(110, 82, 740, 475, 14);
   fill("#61e6d0");
