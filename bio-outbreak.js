@@ -262,13 +262,13 @@ function readAimInput() {
     if (Math.hypot(stickX, stickY) > 0.24) {
       gamepadAimAngle = Math.atan2(stickY, stickX);
       gamepadAimActive = true;
-      return {
-        angle: gamepadAimAngle,
-        shooting: Boolean(pad.buttons[7] && (pad.buttons[7].pressed || pad.buttons[7].value > 0.25))
-      };
+    } else {
+      gamepadAimActive = false;
     }
-    gamepadAimActive = false;
-    return { angle: Math.atan2(mouseY - playerSprite.y, mouseX - playerSprite.x), shooting: false };
+    return {
+      angle: gamepadAimAngle,
+      shooting: Boolean(pad.buttons[7] && (pad.buttons[7].pressed || pad.buttons[7].value > 0.25))
+    };
   }
   gamepadAimActive = false;
   return { angle: Math.atan2(mouseY - playerSprite.y, mouseX - playerSprite.x), shooting: false };
@@ -457,11 +457,12 @@ function updateWave() {
       spawnTimer = Math.max(28, 74 - currentWave * 4);
     }
   }
-  if (enemiesToSpawn === 0 && enemies.length === 0) {
+  if (gameMode === "playing" && enemiesToSpawn === 0 && enemies.length === 0) {
     if (currentWave >= 10) {
-      extractionOpen = true;
-      gameMode = "playing";
-      showMessage("EXTRACTION UNLOCKED — REACH THE BEACON");
+      if (!extractionOpen) {
+        extractionOpen = true;
+        showMessage("EXTRACTION UNLOCKED — REACH THE BEACON");
+      }
     } else {
       gameMode = "shop";
       showMessage("WAVE CLEAR — RESTOCK BEFORE THE NEXT WAVE");
